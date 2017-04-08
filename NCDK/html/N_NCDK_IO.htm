@@ -3,9 +3,9 @@
 				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_ChemObjectIO.htm">ChemObjectIO</a></td><td><div class="summary">
             Provides some basic functionality for readers and writers. This includes
             managing the <a href="T_NCDK_IO_Listener_IChemObjectIOListener.htm">IChemObjectIOListener</a>'s and managing of <a href="T_NCDK_IO_Setting_IOSetting.htm">IOSetting</a>'s.
-            The IOSettings are managed via the <a href="T_NCDK_IO_Setting_SettingManager_1.htm">SettingManager<span id="LST7746996_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7746996_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> class with most
+            The IOSettings are managed via the <a href="T_NCDK_IO_Setting_SettingManager_1.htm">SettingManager<span id="LST642491DC_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> class with most
             method's wrapped to more descriptive method names (e.g. 
-            <a href="T_NCDK_IO_Setting_SettingManager_1.htm">SettingManager<span id="LST7746996_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7746996_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>[<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>]  is invoked by <a href="P_NCDK_IO_ChemObjectIO_IOSettings.htm">IOSettings</a>[<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>]).
+            <a href="T_NCDK_IO_Setting_SettingManager_1.htm">SettingManager<span id="LST642491DC_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>[<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>]  is invoked by <a href="P_NCDK_IO_ChemObjectIO_IOSettings.htm">IOSettings</a>[<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a>]).
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CIFReader.htm">CIFReader</a></td><td><div class="summary">
              This is not a reader for the CIF and mmCIF crystallographic formats.
              It is able, however, to extract some content from such files.
@@ -16,13 +16,17 @@
              <p>The CIF example on the IUCR website has been tested, as well as Crambin (1CRN)
              in the PDB database.</p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CMLReader.htm">CMLReader</a></td><td><div class="summary">
             Reads a molecule in CML 1.X and 2.0 format.
-            CML is an XML based application {@cdk.cite PMR99}, and this Reader applies the method described in {@cdk.cite WIL01}.
+            CML is an XML based application Murray-Rust, P. and Rzepa, H.S., <i>Chemical markup, XML, and the Worldwide Web. 1. Basic
+          principles</i>, Journal of Chemical Information and Computer
+          Sciences, <b>1999</b>, 39:928-942, and this Reader applies the method described in Willighagen, E.L., <i>Processing CML Conventions in Java</i>, Internet Journal of Chemistry, <b>2001</b>, 4:?-?.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_IO_CMLWriter.htm">CMLWriter</a></td><td><div class="summary">
-             Serializes a <a href="T_NCDK_IAtomContainerSet.htm">IAtomContainerSet</a> or a <a href="T_NCDK_IAtomContainer.htm">IAtomContainer</a> object to CML 2 code.
-             Chemical Markup Language is an XML-based file format {@cdk.cite PMR99}.
-             Output can be redirected to other Writer objects like <a href="http://msdn2.microsoft.com/en-us/library/hs9kt2e9" target="_blank">StringWriter</a>
-             and <a href="http://msdn2.microsoft.com/en-us/library/3ssew6tk" target="_blank">StreamWriter</a>. 
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CrystClustReader.htm">CrystClustReader</a></td><td /></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CrystClustWriter.htm">CrystClustWriter</a></td><td><div class="summary">
+            Serializes a <a href="T_NCDK_IAtomContainerSet.htm">IAtomContainerSet</a> or a <a href="T_NCDK_IAtomContainer.htm">IAtomContainer</a> object to CML 2 code.
+            Chemical Markup Language is an XML-based file format Murray-Rust, P. and Rzepa, H.S., <i>Chemical markup, XML, and the Worldwide Web. 1. Basic
+          principles</i>, Journal of Chemical Information and Computer
+          Sciences, <b>1999</b>, 39:928-942.
+            Output can be redirected to other Writer objects like <a href="http://msdn2.microsoft.com/en-us/library/hs9kt2e9" target="_blank">StringWriter</a>
+            and <a href="http://msdn2.microsoft.com/en-us/library/3ssew6tk" target="_blank">StreamWriter</a>. 
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CrystClustReader.htm">CrystClustReader</a></td><td /></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CrystClustWriter.htm">CrystClustWriter</a></td><td><div class="summary">
             Rather stupid file format used for storing crystal information.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_CTXReader.htm">CTXReader</a></td><td><div class="summary">
             Reader that extracts information from the IDENT, NAME, ATOMS and BONDS blocks in CTX files.
@@ -40,7 +44,7 @@
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_Gaussian03Reader.htm">Gaussian03Reader</a></td><td><div class="summary">
             A reader for Gaussian03 output.
             Gaussian 03 is a quantum chemistry program
-            by Gaussian, Inc. (<a href="http://www.gaussian.com/">http://www.gaussian.com/</a>).
+            by Gaussian, Inc. (<a href="http://www.gaussian.com/" target="_blank">http://www.gaussian.com/</a>).
             <p>
             Molecular coordinates, energies, and normal coordinates of
             vibrations are read. Each set of coordinates is added to the
@@ -58,7 +62,7 @@
             </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_Gaussian98Reader.htm">Gaussian98Reader</a></td><td><div class="summary">
             A reader for Gaussian98 output. 
             <p>Gaussian 98 is a quantum chemistry program
-            by Gaussian, Inc. (<a href="http://www.gaussian.com/">http://www.gaussian.com/</a>).
+            by Gaussian, Inc. (<a href="http://www.gaussian.com/" target="_blank">http://www.gaussian.com/</a>).
             </p><p>Molecular coordinates, energies, and normal coordinates of vibrations are
             read. Each set of coordinates is added to the ChemFile in the order they are
             found. Energies and vibrations are associated with the previously read set
@@ -70,7 +74,7 @@
             Gaussian98.</p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_GaussianInputWriter.htm">GaussianInputWriter</a></td><td><div class="summary">
             File writer thats generates input files for Gaussian calculation jobs. It was tested with Gaussian98.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_GhemicalMMReader.htm">GhemicalMMReader</a></td><td><div class="summary">
-            Reads Ghemical (<a href="http://www.uku.fi/~thassine/ghemical/">http://www.uku.fi/~thassine/ghemical/</a>) molecular mechanics (*.mm1gp) files.
+            Reads Ghemical (<a href="http://www.uku.fi/~thassine/ghemical/" target="_blank">http://www.uku.fi/~thassine/ghemical/</a>) molecular mechanics (*.mm1gp) files.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_HINReader.htm">HINReader</a></td><td><div class="summary">
             Reads an object from HIN formated input.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_HINWriter.htm">HINWriter</a></td><td><div class="summary">
@@ -78,17 +82,22 @@
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_InChIPlainTextReader.htm">InChIPlainTextReader</a></td><td><div class="summary">
              Reads the content of a IUPAC/NIST Chemical Identifier (INChI) plain text
              document. This reader parses output generated with INChI 1.12beta like:
-             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAA0GB0BDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAA0GB0BDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAA0GB0BDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Input_File: <span class="highlight-literal">"E:\Program Files\INChI\inchi-samples\Figure04.mol"</span>
-
-Structure: <span class="highlight-number">1</span>
-INChI=<span class="highlight-number">1.12</span>Beta/C6H6/c1-<span class="highlight-number">2</span>-<span class="highlight-number">4</span>-<span class="highlight-number">6</span>-<span class="highlight-number">5</span>-<span class="highlight-number">3</span>-<span class="highlight-number">1</span>/h1-<span class="highlight-number">6</span>H
-AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-number">0</span>/N:<span class="highlight-number">1</span>,<span class="highlight-number">2</span>,<span class="highlight-number">3</span>,<span class="highlight-number">4</span>,<span class="highlight-number">5</span>,<span class="highlight-number">6</span>/E:(<span class="highlight-number">1</span>,<span class="highlight-number">2</span>,<span class="highlight-number">3</span>,<span class="highlight-number">4</span>,<span class="highlight-number">5</span>,<span class="highlight-number">6</span>)/rA:<span class="highlight-number">6</span>CCCCCC/rB:s1;d1;d2;s3;s4d5;/rC:<span class="highlight-number">5.6378</span>,<span class="highlight-number">-4.0013</span>,<span class="highlight-number">0</span>;<span class="highlight-number">5.6378</span>,<span class="highlight-number">-5.3313</span>,<span class="highlight-number">0</span>;<span class="highlight-number">4.4859</span>,<span class="highlight-number">-3.3363</span>,<span class="highlight-number">0</span>;<span class="highlight-number">4.4859</span>,<span class="highlight-number">-5.9963</span>,<span class="highlight-number">0</span>;<span class="highlight-number">3.3341</span>,<span class="highlight-number">-4.0013</span>,<span class="highlight-number">0</span>;<span class="highlight-number">3.3341</span>,<span class="highlight-number">-5.3313</span>,<span class="highlight-number">0</span>;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAA0GB0BDA");</script></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_InChIReader.htm">InChIReader</a></td><td><div class="summary">
+             <pre>
+             Input_File: "E:\Program Files\INChI\inchi-samples\Figure04.mol"
+            
+             Structure: 1
+             INChI=1.12Beta/C6H6/c1-2-4-6-5-3-1/h1-6H
+             AuxInfo=1.12Beta/0/N:1,2,3,4,5,6/E:(1,2,3,4,5,6)/rA:6CCCCCC/rB:s1;d1;d2;s3;s4d5;/rC:5.6378,-4.0013,0;5.6378,-5.3313,0;4.4859,-3.3363,0;4.4859,-5.9963,0;3.3341,-4.0013,0;3.3341,-5.3313,0;
+             </pre></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_InChIReader.htm">InChIReader</a></td><td><div class="summary">
             Reads the content of a IUPAC/NIST Chemical Identifier (INChI) document. See
-            {@cdk.cite HEL01}. Recently a new INChI format was introduced an files generated
+            Stein, S. and Heller, S., <i>IUPAC Chemical Identifier (IChI)</i>, Chemistry International, <b>2001</b>, 23:?-?. Recently a new INChI format was introduced an files generated
             with the latest INChI generator cannot be parsed with this class. This class
             needs to be updated.
             <p>The elements that are read are given in the INChIHandler class.</p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLReader.htm">MDLReader</a></td><td> <strong>Obsolete. </strong><div class="summary">
-            Reads a molecule from the original MDL MOL or SDF file {@cdk.cite DAL92}. An SD files
+            Reads a molecule from the original MDL MOL or SDF file Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
+          Gushurst, A. K. and Grier, D. L. and Leland, B. A. and
+          Laufer, J., <i>Description of Several Chemical Structure File Formats Used by
+          Computer Programs Developed at Molecular Design Limited</i>, Journal of Chemical Information and Computer Sciences, <b>1992</b>, 32:244-255. An SD files
             is read into a <a href="T_NCDK_IChemSequence.htm">IChemSequence</a> of <a href="T_NCDK_IChemModel.htm">IChemModel</a>'s. Each ChemModel will contain one
             Molecule. If the MDL molfile contains a property block, the <a href="T_NCDK_IO_MDLV2000Reader.htm">MDLV2000Reader</a> should be
             used.
@@ -97,10 +106,16 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
             2D, otherwise the coordinates are read as 3D.
             </p><p>
             The title of the MOL file is read and can be retrieved with:
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAA0EB0BDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAA0EB0BDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAA0EB0BDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">molecule.GetProperty&lt;<span class="highlight-keyword">string</span>&gt;(CDKPropertyName.TITLE);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAA0EB0BDA");</script></p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLRXNReader.htm">MDLRXNReader</a></td><td><div class="summary">
-            Reads a molecule from an MDL RXN file {@cdk.cite DAL92}.
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAA0EB0BDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAA0EB0BDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAA0EB0BDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">molecule.GetProperty&lt;<span class="highlight-keyword">string</span>&gt;(CDKPropertyName.Title);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAA0EB0BDA");</script></p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLRXNReader.htm">MDLRXNReader</a></td><td><div class="summary">
+            Reads a molecule from an MDL RXN file Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
+          Gushurst, A. K. and Grier, D. L. and Leland, B. A. and
+          Laufer, J., <i>Description of Several Chemical Structure File Formats Used by
+          Computer Programs Developed at Molecular Design Limited</i>, Journal of Chemical Information and Computer Sciences, <b>1992</b>, 32:244-255.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLRXNV2000Reader.htm">MDLRXNV2000Reader</a></td><td><div class="summary">
-            Reads a molecule from an MDL RXN file {@cdk.cite DAL92}.
+            Reads a molecule from an MDL RXN file Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
+          Gushurst, A. K. and Grier, D. L. and Leland, B. A. and
+          Laufer, J., <i>Description of Several Chemical Structure File Formats Used by
+          Computer Programs Developed at Molecular Design Limited</i>, Journal of Chemical Information and Computer Sciences, <b>1992</b>, 32:244-255.
             This MDL RXN reader uses the MDLV2000 reader to read each mol file
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLRXNV3000Reader.htm">MDLRXNV3000Reader</a></td><td><div class="summary">
             Class that implements the new MDL mol format introduced in August 2002.
@@ -124,32 +139,28 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
             If all z coordinates are 0.0, then the xy coordinates are taken as 2D,
             otherwise the coordinates are read as 3D.
             </p><p>The title of the MOL file is read and can be retrieved with:
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABA6BDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABA6BDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABA6BDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">molecule.GetProperty&lt;<span class="highlight-keyword">string</span>&gt;(CDKPropertyName.TITLE);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABA6BDA");</script></p><p>RGroups which are saved in the MDL molfile as R#, are renamed according to
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABA6BDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABA6BDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABA6BDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">molecule.GetProperty&lt;<span class="highlight-keyword">string</span>&gt;(CDKPropertyName.Title);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABA6BDA");</script></p><p>RGroups which are saved in the MDL molfile as R#, are renamed according to
             their appearance, e.g. the first R# is named R1. With PseudAtom.Label
             "R1" is returned (instead of R#). This is introduced due to the SAR table
             generation procedure of Scitegics PipelinePilot.
             </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_IO_MDLV2000Writer.htm">MDLV2000Writer</a></td><td><div class="summary">
-            Writes MDL molfiles, which contains a single molecule (see {@cdk.cite DAL92}).
-            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLV2000Writer_SpinMultiplicity.htm">MDLV2000Writer<span id="LST7746996_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SpinMultiplicity</a></td><td><div class="summary">
+            Writes MDL molfiles, which contains a single molecule (see Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
+          Gushurst, A. K. and Grier, D. L. and Leland, B. A. and
+          Laufer, J., <i>Description of Several Chemical Structure File Formats Used by
+          Computer Programs Developed at Molecular Design Limited</i>, Journal of Chemical Information and Computer Sciences, <b>1992</b>, 32:244-255).
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLV2000Writer_SpinMultiplicity.htm">MDLV2000Writer<span id="LST642491DC_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SpinMultiplicity</a></td><td><div class="summary">
             Enumeration of all valid radical values.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLV3000Reader.htm">MDLV3000Reader</a></td><td><div class="summary">
             Class that implements the MDL mol V3000 format. This reader reads the
             element symbol and 2D or 3D coordinates from the ATOM block.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MDLV3000Writer.htm">MDLV3000Writer</a></td><td><div class="summary">
-            Ctab V3000 format output. This writer provides output to the more modern (but less widely
-            supported) V3000 format. Unlikely the V2000 format that is limited to 999 atoms or bonds
-            V3000 can write arbitrarily large molecules. Beyond this the format removes some (but not all)
-            ambiguities and simplifies output values with tagging (e.g 'CHG=-1' instead of '5').
-            Supported Features:
-            <ul><li>Atom Block, non-query features</li><li>Bond Block, non-query features</li><li>Sgroup Block, partial support for all chemical Sgroups, complete support for: Abbreviations,
-                MultipleGroup, SRUs, (Un)ordered Mixtures</li></ul>
-            The 3D block and enhanced stereochemistry is not currently supported.
+            Ctab V3000 format output. 
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_Mol2Reader.htm">Mol2Reader</a></td><td><div class="summary">
             Reads a molecule from an Mol2 file, such as written by Sybyl.
-            See the specs <a href="http://www.tripos.com/data/support/mol2.pdf">here</a>.
+            See the specs <a href="http://www.tripos.com/data/support/mol2.pdf" target="_blank">here</a>.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_Mol2Writer.htm">Mol2Writer</a></td><td><div class="summary">
             An output Writer that writes molecular data into the
-            <a href="http://www.tripos.com/data/support/mol2.pdf">Tripos Mol2 format</a>.
+            <a href="http://www.tripos.com/data/support/mol2.pdf" target="_blank">Tripos Mol2 format</a>.
             Writes the atoms and the bonds only at this moment.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_Mopac7Reader.htm">Mopac7Reader</a></td><td><div class="summary">
             Reads MOPAC output, extracts several electronic parameters and assigns them as a molecule
@@ -158,14 +169,17 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
             Prepares input file for running MOPAC.
             Optimization is switched on if there are no coordinates.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_MoSSOutputReader.htm">MoSSOutputReader</a></td><td><div class="summary">
-            Reader for MoSS output files {@cdk.cite BOR2002} which present the results
+            Reader for MoSS output files Borgelt, C. and Berthold, M.R., <i>Mining Molecular Fragments: Finding Relevant Substructures of Molecules</i>, <b>2002</b>, ICDM '02: Proceedings of the 2002 IEEE International Conference on Data Mining (ICDM'02) which present the results
             of a substructure mining study. These files look like:
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACAXBDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACAXBDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACAXBDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">id,description,nodes,edges,s_abs,s_rel,c_abs,c_rel
-<span class="highlight-number">1</span>,S-c:c:c:c:c:c,<span class="highlight-number">7</span>,<span class="highlight-number">6</span>,<span class="highlight-number">491</span>,<span class="highlight-number">5.055081</span>,<span class="highlight-number">5</span>,<span class="highlight-number">1.7421603</span>
-<span class="highlight-number">2</span>,S-c:c:c:c:c,<span class="highlight-number">6</span>,<span class="highlight-number">5</span>,<span class="highlight-number">493</span>,<span class="highlight-number">5.0756717</span>,<span class="highlight-number">5</span>,<span class="highlight-number">1.7421603</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACAXBDA");</script><b>Caution</b>: the output contains substructures, not full molecules,
+            <pre>
+            id,description,nodes,edges,s_abs,s_rel,c_abs,c_rel
+            1,S-c:c:c:c:c:c,7,6,491,5.055081,5,1.7421603
+            2,S-c:c:c:c:c,6,5,493,5.0756717,5,1.7421603
+            </pre><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Caution note" /> Caution</th></tr><tr><td>
+            The output contains substructures, not full molecules,
             even though they are read as such right now.
-            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_IO_NCDKSourceCodeWriter.htm">NCDKSourceCodeWriter</a></td><td><div class="summary">
-            Converts a Molecule into CDK source code that would build the same
+            </td></tr></table></div></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_IO_NCDKSourceCodeWriter.htm">NCDKSourceCodeWriter</a></td><td><div class="summary">
+            Converts a Molecule into NCDK source code that would build the same
             molecule. 
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_PCCompoundASNReader.htm">PCCompoundASNReader</a></td><td><div class="summary">
             Reads an object from ASN formated input for PubChem Compound entries. The following
@@ -181,7 +195,7 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
             it extracts the InChI and canonical SMILES properties.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_PDBReader.htm">PDBReader</a></td><td><div class="summary">
             Reads the contents of a PDBFile.
-            <p>A description can be found at <a href="http://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html">http://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html</a>.</p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_PDBWriter.htm">PDBWriter</a></td><td><div class="summary">
+            <p>A description can be found at <a href="http://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html" target="_blank">http://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html</a>.</p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_PDBWriter.htm">PDBWriter</a></td><td><div class="summary">
             Saves small molecules in a rudimentary PDB format. It does not allow
             writing of PDBProtein data structures.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_PMPReader.htm">PMPReader</a></td><td><div class="summary">
@@ -190,7 +204,7 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_ReaderEvent.htm">ReaderEvent</a></td><td><div class="summary">
             Signals that something has happened in a file reader. This class is
             primarily in place for future development when additional information
-            may be passed to <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABAOBDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EABAOBDA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABAOBDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">ReaderListener</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABAOBDA");</script>s.
+            may be passed to <a href="T_NCDK_IO_Listener_IReaderListener.htm">IReaderListener</a>s.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_IO_ReaderFactory.htm">ReaderFactory</a></td><td><div class="summary">
             A factory for creating ChemObjectReaders. The type of reader
             created is determined from the content of the input. Formats
@@ -202,14 +216,17 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
              member of each Rgroup in the query.
             
              <p>The RGFile format is described in the manual
-             <a href="http://www.symyx.com/downloads/public/ctfile/ctfile.pdf">"CTFile Formats"</a> , Chapter 5.
+             <a href="http://www.symyx.com/downloads/public/ctfile/ctfile.pdf" target="_blank">"CTFile Formats"</a> , Chapter 5.
              </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_RGroupQueryWriter.htm">RGroupQueryWriter</a></td><td><div class="summary">
             A writer for Symyx' Rgroup files (RGFiles).
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_RssWriter.htm">RssWriter</a></td><td><div class="summary">
-            Generates an RSS feed. It the object is a <a href="T_NCDK_IAtomContainerSet_1.htm">IAtomContainerSet<span id="LST7746996_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_5?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7746996_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_6?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, the molecules
+            Generates an RSS feed. It the object is a <a href="T_NCDK_IAtomContainerSet_1.htm">IAtomContainerSet<span id="LST642491DC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_5?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_6?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, the molecules
             are put in separately. All other objects are made CML and put in.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_SDFWriter.htm">SDFWriter</a></td><td><div class="summary">
-            Writes MDL SD files ({@cdk.cite DAL92}). A MDL SD file contains one or more molecules,
+            Writes MDL SD files (Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
+          Gushurst, A. K. and Grier, D. L. and Leland, B. A. and
+          Laufer, J., <i>Description of Several Chemical Structure File Formats Used by
+          Computer Programs Developed at Molecular Design Limited</i>, Journal of Chemical Information and Computer Sciences, <b>1992</b>, 32:244-255). A MDL SD file contains one or more molecules,
             complemented by properties.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_ShelXReader.htm">ShelXReader</a></td><td><div class="summary">
             A reader for ShelX output (RES) files. It does not read all information.
@@ -228,7 +245,7 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
              that is stored as <a href="F_NCDK_CDKPropertyName_Title.htm">Title</a>. For legacy comparability the
              title is also placed in a "SMIdbNAME" property. If a line is invalid an empty
              molecule is inserted into the container set. The molecule with have the prop
-             <a href="F_NCDK_IO_Iterator_IteratingSMILESReader_BAD_SMILES_INPUT.htm">BAD_SMILES_INPUT</a> set to the input line that
+             <a href="F_NCDK_IO_Iterator_IteratingSMILESReader_BadSmilesInput.htm">BadSmilesInput</a> set to the input line that
              could not be read. 
             
              <p>For each line a molecule is generated, and multiple Molecules are
@@ -258,10 +275,10 @@ AuxInfo=<span class="highlight-number">1.12</span>Beta/<span class="highlight-nu
              This interface specifies the common functionality all IO readers should provide.
             
              IO readers should not implement this interface directly, but rather implement
-             one of its child interfaces: <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> or <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST7746996_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7746996_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
+             one of its child interfaces: <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> or <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST642491DC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
              These sub-interfaces specify the information access methods:
              a simple Read() method for the <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> and
-             more advanced iterator based access for the <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST7746996_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7746996_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7746996_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> (suitable for large files)
+             more advanced iterator based access for the <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST642491DC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> (suitable for large files)
              </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_IO_IChemObjectReaderErrorHandler.htm">IChemObjectReaderErrorHandler</a></td><td><div class="summary">
             Interface for classes aimed to handle <a href="T_NCDK_IO_IChemObjectReader.htm">IChemObjectReader</a> errors.
             </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_IO_IChemObjectWriter.htm">IChemObjectWriter</a></td><td><div class="summary">

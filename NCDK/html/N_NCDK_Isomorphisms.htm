@@ -5,21 +5,21 @@
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_BondMatcher.htm">BondMatcher</a></td><td><div class="summary">
             Defines compatibility checking of bonds for (subgraph)-isomorphism mapping.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_ComponentGrouping.htm">ComponentGrouping</a></td><td><div class="summary">
-             A predicate for verifying component level grouping in query/target structure
-             matching. The grouping is used by SMARTS and is critical to querying
-             reactions. The grouping specifies that substructures in the query should
-             match to separate components in the target. The grouping specification is
-             indicated by an {@code int[]} array of length (|V(query)| + 1). The final
-             index indicates the maximum component group (in the query). A specification
-             of '0' indicates there are no grouping restrictions.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_IsomorphismTester.htm">IsomorphismTester</a></td><td><div class="summary">
+            A predicate for verifying component level grouping in query/target structure
+            matching. The grouping is used by SMARTS and is critical to querying
+            reactions. The grouping specifies that substructures in the query should
+            match to separate components in the target. The grouping specification is
+            indicated by an <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a>[] array of length (|V(query)| + 1). The final
+            index indicates the maximum component group (in the query). A specification
+            of '0' indicates there are no grouping restrictions.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_IsomorphismTester.htm">IsomorphismTester</a></td><td><div class="summary">
             A too simplistic implementation of an isomorphism test for chemical graphs.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_Mappings.htm">Mappings</a></td><td><div class="summary">
-             A fluent interface for handling (sub)-graph mappings from a query to a target
-             structure. The utility allows one to modify the mappings and provides
-             convenience utilities. <a href="T_NCDK_Isomorphisms_Mappings.htm">Mappings</a> are obtained from a (sub)-graph
-             matching using <a href="T_NCDK_Isomorphisms_Pattern.htm">Pattern</a>.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Mappings_BondMaper.htm">Mappings<span id="LST9FD20F7D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9FD20F7D_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BondMaper</a></td><td><div class="summary">Utility to transform a permutation into the bond-bond map.</div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Pattern.htm">Pattern</a></td><td><div class="summary">
+            A fluent interface for handling (sub)-graph mappings from a query to a target
+            structure. The utility allows one to modify the mappings and provides
+            convenience utilities. <a href="T_NCDK_Isomorphisms_Mappings.htm">Mappings</a> are obtained from a (sub)-graph
+            matching using <a href="T_NCDK_Isomorphisms_Pattern.htm">Pattern</a>.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Mappings_BondMaper.htm">Mappings<span id="LST64C672BE_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST64C672BE_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BondMaper</a></td><td><div class="summary">Utility to transform a permutation into the bond-bond map.</div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Pattern.htm">Pattern</a></td><td><div class="summary">
             A structural pattern for finding an exact matching in a target compound.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_SmartsStereoMatch.htm">SmartsStereoMatch</a></td><td><div class="summary">
              Filters SMARTS matches for those that have valid stereochemistry
@@ -27,12 +27,14 @@
             
              Note: This class is internal and will be private in future.
              </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_Ullmann.htm">Ullmann</a></td><td><div class="summary">
-             A structure pattern which utilises the Ullmann algorithm {@cdk.cite Ullmann76}.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_UniversalIsomorphismTester.htm">UniversalIsomorphismTester</a></td><td><div class="summary">
-              This class implements a multipurpose structure comparison tool.
-              It allows to find maximal common substructure, find the
-              mapping of a substructure in another structure, and the mapping of
-              two isomorphic structures.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_VentoFoggia.htm">VentoFoggia</a></td><td><div class="summary">
-             A structure pattern which utilises the Vento-Foggia (VF) algorithm {@cdk.cite Cordella04}.
-             </div></td></tr></table></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2017 Kazuya Ujihara</p> </div></body></html>
+            A structure pattern which utilises the Ullmann algorithm 
+    <a href="http://dx.doi.org/10.1145/321921.321925">Ullmann J R, <i>An Algorithm for Subgraph Isomorphism</i>, Journal of the Association for Computing Machinery, <b>1976</b>, 23:?-?</a>
+  .
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_UniversalIsomorphismTester.htm">UniversalIsomorphismTester</a></td><td><div class="summary">
+             This class implements a multipurpose structure comparison tool.
+             It allows to find maximal common substructure, find the
+             mapping of a substructure in another structure, and the mapping of
+             two isomorphic structures.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Isomorphisms_VentoFoggia.htm">VentoFoggia</a></td><td><div class="summary">
+            A structure pattern which utilises the Vento-Foggia (VF) algorithm Cordella Luigi P and Foggia Pasquale and Carlo Sansone and Vento Mario , <i>A (Sub)Graph Isomorphism Algorithm for Matching Large Graphs</i>, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, <b>2004</b>, 26:10.
+            </div></td></tr></table></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2017 Kazuya Ujihara</p> </div></body></html>

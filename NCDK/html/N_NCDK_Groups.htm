@@ -8,25 +8,20 @@
             Refines a 'coarse' partition (with more blocks) to a 'finer' partition that
             is equitable.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Groups_AtomDiscretePartitionRefiner.htm">AtomDiscretePartitionRefiner</a></td><td><div class="summary">
-             A tool for determining the automorphism group of the atoms in a molecule, or
-             for checking for a canonical form of a molecule.
-             
-             If two atoms are equivalent under an automorphism in the group, then
-             roughly speaking they are in symmetric positions in the molecule. For
-             example, the C atoms in two methyl groups attached to a benzene ring
-             are 'equivalent' in this sense.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_AtomEquitablePartitionRefiner.htm">AtomEquitablePartitionRefiner</a></td><td><div class="summary">
+            A tool for determining the automorphism group of the atoms in a molecule, or
+            for checking for a canonical form of a molecule.
+            
+            If two atoms are equivalent under an automorphism in the group, then
+            roughly speaking they are in symmetric positions in the molecule. For
+            example, the C atoms in two methyl groups attached to a benzene ring
+            are 'equivalent' in this sense.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_AtomEquitablePartitionRefiner.htm">AtomEquitablePartitionRefiner</a></td><td><div class="summary">
             Refiner for atom containers, which refines partitions of the atoms to
             equitable partitions. Used by the <a href="T_NCDK_Groups_AtomDiscretePartitionRefiner.htm">AtomDiscretePartitionRefiner</a>.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Groups_BondDiscretePartitionRefiner.htm">BondDiscretePartitionRefiner</a></td><td><div class="summary">
-             A tool for determining the automorphism group of the atoms in a molecule, or
-             for checking for a canonical form of a molecule.
-            
-             If two bonds are equivalent under an automorphism in the group, then
-             roughly speaking they are in symmetric positions in the molecule. For
-             example, the C-C bonds attaching two methyl groups to a benzene ring
-             are 'equivalent' in this sense.
-             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_BondEquitablePartitionRefiner.htm">BondEquitablePartitionRefiner</a></td><td><div class="summary">
+            A tool for determining the automorphism group of the atoms in a molecule, or
+            for checking for a canonical form of a molecule.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_BondEquitablePartitionRefiner.htm">BondEquitablePartitionRefiner</a></td><td><div class="summary">
             Refiner for atom containers, which refines partitions of the bonds to
             equitable partitions. Used by the <a href="T_NCDK_Groups_BondDiscretePartitionRefiner.htm">BondDiscretePartitionRefiner</a>.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_DisjointSetForest.htm">DisjointSetForest</a></td><td><div class="summary">
@@ -39,26 +34,26 @@
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_Permutation.htm">Permutation</a></td><td><div class="summary">
             A permutation with some associated methods to multiply, invert, and convert
             to cycle strings. Much of the code in this was implemented from the
-            C.A.G.E.S. book {@cdk.cite Kreher98}.
+            C.A.G.E.S. book Kreher, Donald and Stinson, Douglas, <i>Combinatorial Algorithms Generation Enumeration and Search</i>, <b>1998</b>, CRC Press.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Groups_PermutationGroup.htm">PermutationGroup</a></td><td><div class="summary">
              A permutation group with a Schreier-Sims representation. For a number n, a
-             list of permutation sets is stored (U0,...,Un-1). All n! permutations of
+             list of permutation sets is stored (U<sub>0</sub>,...,U<sub>n-1</sub>). All n! permutations of
              [0...n-1] can be reconstructed from this list by backtracking - see, for
-             example, the <a href="#GenerateAll">GenerateAll</a> method.
+             example, the <a href="M_NCDK_Groups_PermutationGroup_GenerateAll.htm">GenerateAll<span id="LST5EEDB66A_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5EEDB66A_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> method.
              </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="interfaceList"><tr><th class="iconColumn">
 					 
 				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_IEquitablePartitionRefiner.htm">IEquitablePartitionRefiner</a></td><td><div class="summary">
             Interface that the discrete partition refiner uses to interact with
             a particular implementation of an equitable partition refiner.
-            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_PermutationGroup_Backtracker.htm">PermutationGroup<span id="LSTAC510226_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAC510226_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Backtracker</a></td><td><div class="summary">
+            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_PermutationGroup_Backtracker.htm">PermutationGroup<span id="LST5EEDB66A_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5EEDB66A_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Backtracker</a></td><td><div class="summary">
             An interface for use with the apply method, which runs through all the
             permutations in this group.
             </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="enumerationList"><tr><th class="iconColumn">
 					 
-				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Groups_AbstractDiscretePartitionRefiner_Result.htm">AbstractDiscretePartitionRefiner<span id="LSTAC510226_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAC510226_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Result</a></td><td><div class="summary">
+				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Groups_AbstractDiscretePartitionRefiner_Result.htm">AbstractDiscretePartitionRefiner<span id="LST5EEDB66A_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5EEDB66A_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Result</a></td><td><div class="summary">
             The result of a comparison between the current partition
             and the best permutation found so far.
-            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Groups_AbstractEquitablePartitionRefiner_SplitOrder.htm">AbstractEquitablePartitionRefiner<span id="LSTAC510226_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAC510226_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SplitOrder</a></td><td><div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Groups_AbstractEquitablePartitionRefiner_SplitOrder.htm">AbstractEquitablePartitionRefiner<span id="LST5EEDB66A_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5EEDB66A_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SplitOrder</a></td><td><div class="summary">
             A forward split order tends to favor partitions where the cells are
             refined from lowest to highest. A reverse split order is, of course, the
             opposite.
