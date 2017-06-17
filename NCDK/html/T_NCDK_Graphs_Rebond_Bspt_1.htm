@@ -38,8 +38,8 @@
              these dimensions are stored as 0, 1, or 2. Each node of the tree splits
              along the next dimension, wrapping around to 0.
             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">mySplitDimension = (parentSplitDimension + <span class="highlight-number">1</span>) % <span class="highlight-number">3</span>;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABBBA");</script>
-             A split value is stored in the node. Values which are &lt;= splitValue are
-             stored down the left branch. Values which are &gt;= splitValue are stored
+             A split value is stored in the node. Values which are ≦ splitValue are
+             stored down the left branch. Values which are ≧ splitValue are stored
              down the right branch. When this happens, the search must proceed down
              both branches.
              Planar and crystalline substructures can generate values which are == along

@@ -42,9 +42,6 @@
             Display atom numbers on the molecule or reaction. The numbers are based on the
             ordering of atoms in the molecule data structure and not a systematic system
             such as IUPAC numbering.
-            <p />
-            Note: A depiction can not have both atom numbers and atom maps visible
-            (but this can be achieved by manually setting the annotation).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithBackgroundColor.htm">WithBackgroundColor</a></td><td><div class="summary">
             Change the background color.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithCarbonSymbols.htm">WithCarbonSymbols</a></td><td><div class="summary">
@@ -56,10 +53,7 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithHighlight.htm">WithHighlight</a></td><td><div class="summary">
             Highlight the provided set of atoms and bonds in the depiction in the
             specified color.
-            <p>
-            Calling this methods appends to the current highlight buffer. The buffer
-            is cleared after each depiction is generated (e.g. <a href="M_NCDK_Depict_DepictionGenerator_Depict.htm">Depict(IAtomContainer)</a>).
-            </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithMappedRxnAlign.htm">WithMappedRxnAlign</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithMappedRxnAlign.htm">WithMappedRxnAlign</a></td><td><div class="summary">
             Specifies that reactions with atom-atom mappings should have their reactants/product
             coordinates aligned. Default: true.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithMargin.htm">WithMargin</a></td><td><div class="summary">
@@ -92,11 +86,7 @@
             raster images using pixels and vector graphics using millimeters. By default depictions
             are only ever made smaller if you would also like to make depictions fill all available
             space use the <a href="M_NCDK_Depict_DepictionGenerator_WithFillToFit.htm">WithFillToFit<span id="LSTFDC3B2A7_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFDC3B2A7_11?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> option. 
-            <p>
-            Currently the size must either both be precisely specified (e.g. 256x256) or
-            automatic (e.g. <a href="F_NCDK_Depict_DepictionGenerator_AUTOMATIC.htm">AUTOMATIC</a>x<a href="F_NCDK_Depict_DepictionGenerator_AUTOMATIC.htm">AUTOMATIC</a>) you cannot for example
-            specify a fixed height and automatic width.
-            </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithTerminalCarbons.htm">WithTerminalCarbons</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithTerminalCarbons.htm">WithTerminalCarbons</a></td><td><div class="summary">
             Display atom symbols for terminal carbons (i.e. Methyl)
             groups.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_Depict_DepictionGenerator_WithTitleColor.htm">WithTitleColor</a></td><td><div class="summary">
@@ -108,7 +98,4 @@
             depiction and is used for uniformly making depictions bigger. If
             you would like to simply fill all available space (not recommended)
             use <a href="M_NCDK_Depict_DepictionGenerator_WithFillToFit.htm">WithFillToFit<span id="LSTFDC3B2A7_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFDC3B2A7_12?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.
-            <p>
-            The zoom is a scaling factor, specifying a zoom of 2 is double size,
-            0.5 half size, etc.
-            </p></div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_NCDK_Depict_DepictionGenerator.htm">DepictionGenerator Class</a></div><div class="seeAlsoStyle"><a href="N_NCDK_Depict.htm">NCDK.Depict Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2017 Kazuya Ujihara</p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_NCDK_Depict_DepictionGenerator.htm">DepictionGenerator Class</a></div><div class="seeAlsoStyle"><a href="N_NCDK_Depict.htm">NCDK.Depict Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2017 Kazuya Ujihara</p> </div></body></html>

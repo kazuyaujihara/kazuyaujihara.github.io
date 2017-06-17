@@ -22,7 +22,10 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreateAutoGenPalette_1.htm">CreateAutoGenPalette(Single, Single, Boolean)</a></td><td><div class="summary">
             Create an auto generating palette which will generate colors using the
             provided parameters.
-            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreateAutoPalette.htm">CreateAutoPalette</a></td><td /></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreatePalette_1.htm">CreatePalette(<span id="LSTE984D6F_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_4?cpp=array&lt;");</script>Color<span id="LSTE984D6F_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreateAutoPalette.htm">CreateAutoPalette</a></td><td><div class="summary">
+            Create an auto generating palette which will generate colors using the
+            provided parameters.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreatePalette_1.htm">CreatePalette(<span id="LSTE984D6F_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_4?cpp=array&lt;");</script>Color<span id="LSTE984D6F_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Create a palette which uses the provided colors.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_Renderers_Generators_HighlightGenerator_CreatePalette.htm">CreatePalette(Color, <span id="LSTE984D6F_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_6?cpp=array&lt;");</script>Color<span id="LSTE984D6F_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE984D6F_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Create a palette which uses the provided colors.
@@ -41,8 +44,8 @@ IAtomContainer            m   = ...; <span class="highlight-comment">// input mo
 
 <span class="highlight-comment">// set atom/bond ids, atoms with no id will not be highlighted, numbering</span>
 <span class="highlight-comment">// starts at 0</span>
-ids.Put(m.Atoms[<span class="highlight-number">0</span>], <span class="highlight-number">0</span>);
-ids.Put(m.Atoms[<span class="highlight-number">1</span>], <span class="highlight-number">0</span>);
+ids.Put(m.Begin, <span class="highlight-number">0</span>);
+ids.Put(m.End, <span class="highlight-number">0</span>);
 ids.Put(m.Atoms[<span class="highlight-number">2</span>], <span class="highlight-number">0</span>);
 ids.Put(m.Atoms[<span class="highlight-number">5</span>], <span class="highlight-number">2</span>);
 ids.Put(m.Atoms[<span class="highlight-number">6</span>], <span class="highlight-number">1</span>);

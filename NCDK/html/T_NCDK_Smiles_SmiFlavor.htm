@@ -13,7 +13,15 @@
             map index is set on an atom with property {@link org.openscience.cdk.CDKConstants#ATOM_ATOM_MAPPING}
             using {@link org.openscience.cdk.interfaces.IAtom#setProperty(Object, Object)}.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_AtomicMass.htm">AtomicMass</a></td><td><div class="summary">
-            Output atomic mass on atoms.
+            Output atomic mass on atoms. For historical reasons the atomic mass is
+            often set on all atoms in a CDK molecule. Therefore to avoid SMILES like
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADAYCDA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADAYCDA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADAYCDA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="highlight-number">12</span>CH3][<span class="highlight-number">12</span>CH2][<span class="highlight-number">16</span>OH]</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADAYCDA");</script> major isotopes are not generated. If you
+            wish to generate SMILES with the major isotopes please use the flag
+            <a href="F_NCDK_Smiles_SmiFlavor_AtomicMassStrict.htm">AtomicMassStrict</a> this will output all mass numbers and only be
+            omitted when the mass is unset (null).
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_AtomicMassStrict.htm">AtomicMassStrict</a></td><td><div class="summary">
+            Generate SMILES with the major isotopes, only omit mass numbers when it
+            is unset.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_Canonical.htm">Canonical</a></td><td><div class="summary">
             Output SMILES in a canonical order. The order is not guaranteed to be
             equivalent between releases.
@@ -24,7 +32,7 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxAtomLabel.htm">CxAtomLabel</a></td><td><div class="summary">
             Output atom labels, atom labels are specified by <span class="nolink">[!:IPseudoAtom.GetLabel()]</span>.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxAtomValue.htm">CxAtomValue</a></td><td><div class="summary">
-            Output atom values, atom values are specified by <span class="nolink">[!:IPseudoAtom.GetLabel()]</span>.
+            Output atom values, atom values are specified by <a href="P_NCDK_IPseudoAtom_Label.htm">Label</a>.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxCoordinates.htm">CxCoordinates</a></td><td><div class="summary">
             Output either 2D/3D coordinates.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxFragmentGroup.htm">CxFragmentGroup</a></td><td><div class="summary">
@@ -35,7 +43,7 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxPolymer.htm">CxPolymer</a></td><td><div class="summary">
             Output polymer repeat units is specified with {@link org.openscience.cdk.sgroup.Sgroup}s.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxRadical.htm">CxRadical</a></td><td><div class="summary">
-            Output radicals, radicals are specified by <span class="nolink">[!:IAtomContainer.GetConnectedSingleElectronsCount(IAtom)]</span></div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxSmiles.htm">CxSmiles</a></td><td><div class="summary">
+            Output radicals, radicals are specified by <a href="M_NCDK_IAtomContainer_GetConnectedSingleElectrons.htm">GetConnectedSingleElectrons(IAtom)</a></div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxSmiles.htm">CxSmiles</a></td><td><div class="summary">
             Output CXSMILES layers.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_CxSmilesWithCoords.htm">CxSmilesWithCoords</a></td><td><div class="summary">
             Output CXSMILES layers and coordinates.
@@ -62,9 +70,10 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_Unique.htm">Unique</a></td><td><div class="summary">
             Output canonical SMILES without stereochemistry, atomic masses.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_UniversalSmiles.htm">UniversalSmiles</a></td><td><div class="summary">
-            Output canonical SMILES with stereochemistry, atomic masses using the
-            InChI labelling algorithm {@cite OBoyle12}. With delocalised charges
-            the generated SMILES can be non-canonical.
+            Output canonical SMILES with stereochemistry and atomic masses, This output uses the
+            InChI labelling algorithm to generate a 'Universal SMILES' 
+    <a href="http://dx.doi.org/10.1186/1758-2946-4-22">O’Boyle, Noel, <i>Towards a Universal SMILES representation - A standard method to generate canonical SMILES based on the InChI</i>, Journal of Cheminformatics, <b>2012</b>, 4:?-?</a>
+  .
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_NCDK_Smiles_SmiFlavor_UseAromaticSymbols.htm">UseAromaticSymbols</a></td><td><div class="summary">
             Writes aromatic atoms as lower case letters. For portability
             this option is not recomended.
