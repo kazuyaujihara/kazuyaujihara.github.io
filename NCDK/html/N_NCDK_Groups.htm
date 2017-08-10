@@ -30,45 +30,9 @@
              example, the <a href="M_NCDK_Groups_PermutationGroup_GenerateAll.htm">GenerateAll<span id="LST5EEDB66A_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5EEDB66A_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> method.
              </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="interfaceList"><tr><th class="iconColumn">
 					 
-				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_AtomContainerDiscretePartitionRefiner.htm">AtomContainerDiscretePartitionRefiner</a></td><td><div class="summary">
+				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_NCDK_Groups_AtomContainerDiscretePartitionRefiner.htm">AtomContainerDiscretePartitionRefiner</a></td><td><div class="summary">
             A tool for determining the automorphism group of the atoms in a molecule, or
             for checking for a canonical form of a molecule.
-            
-            If two atoms are equivalent under an automorphism in the group, then
-            roughly speaking they are in symmetric positions in the molecule. For
-            example, the C atoms in two methyl groups attached to a benzene ring
-            are 'equivalent' in this sense.
-            
-            <p>There are a couple of ways to use it - firstly, get the automorphisms.</p><pre>
-                IAtomContainer ac = ... // get an atom container somehow
-                AtomContainerDiscretePartitionRefiner refiner =
-                     PartitionRefinement.forAtoms().create()
-                PermutationGroup autG = refiner.getAutomorphismGroup(ac);
-                for (Permutation automorphism : autG.all()) {
-                    ... // do something with the permutation
-                }
-            </pre><p>Another is to check an atom container to see if it is canonical:</p><pre>
-                IAtomContainer ac = ... // get an atom container somehow
-                AtomContainerDiscretePartitionRefiner refiner =
-                     PartitionRefinement.forAtoms().create()
-                if (refiner.isCanonical(ac)) {
-                    ... // do something with the atom container
-                }
-            </pre>
-            
-            Note that it is not necessary to call <a href="M_NCDK_Groups_AtomContainerDiscretePartitionRefiner_Refine.htm">Refine(IAtomContainer)</a> before
-            either of these methods. However if both the group and the canonical check
-            are required, then the code should be:
-            
-            <pre>
-                AtomContainerDiscretePartitionRefiner refiner =
-                     PartitionRefinement.forAtoms().create()
-                refiner.refine(ac);
-                boolean isCanon = refiner.isCanonical();
-                PermutationGroup autG = refiner.getAutomorphismGroup();
-            </pre>
-            
-            This way, the refinement is not carried out multiple times.
             </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_DiscretePartitionRefiner.htm">DiscretePartitionRefiner</a></td><td><div class="summary">
             A mechanism for refining partitions of graph-like objects.
             </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_Groups_Invariant.htm">Invariant</a></td><td><div class="summary">
