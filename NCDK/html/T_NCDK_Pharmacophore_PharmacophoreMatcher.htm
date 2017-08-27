@@ -91,7 +91,7 @@ query.Bonds.Add(b3);
 <span class="highlight-keyword">string</span> filename = <span class="highlight-literal">"/Users/rguha/pcore1.sdf"</span>;
 <span class="highlight-keyword">using</span> (<span class="highlight-keyword">var</span> srm = <span class="highlight-keyword">new</span> FileStream(filename, FileMode.Open))
 {
-    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conformers <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> IteratingMDLConformerReader(srm, Default.ChemObjectBuilder.Instance))
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conformers <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> IEnumerableMDLConformerReader(srm, Default.ChemObjectBuilder.Instance))
     {
         <span class="highlight-keyword">bool</span> firstTime = <span class="highlight-keyword">true</span>;
         <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conf <span class="highlight-keyword">in</span> conformers)

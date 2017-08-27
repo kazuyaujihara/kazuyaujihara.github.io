@@ -222,7 +222,7 @@
              </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_RGroupQueryWriter.htm">RGroupQueryWriter</a></td><td><div class="summary">
             A writer for Symyx' Rgroup files (RGFiles).
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_RssWriter.htm">RssWriter</a></td><td><div class="summary">
-            Generates an RSS feed. It the object is a <a href="T_NCDK_IAtomContainerSet_1.htm">IAtomContainerSet<span id="LST642491DC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_5?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_6?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, the molecules
+            Generates an RSS feed. It the object is a <a href="T_NCDK_IChemObjectSet_1.htm">IChemObjectSet<span id="LST642491DC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_5?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_6?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, the molecules
             are put in separately. All other objects are made CML and put in.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_IO_SDFWriter.htm">SDFWriter</a></td><td><div class="summary">
             Writes MDL SD files (Dalby, A. and Nourse, J. G. and Hounshell, W. D. and
@@ -247,7 +247,7 @@
              that is stored as <a href="F_NCDK_CDKPropertyName_Title.htm">Title</a>. For legacy comparability the
              title is also placed in a "SMIdbNAME" property. If a line is invalid an empty
              molecule is inserted into the container set. The molecule with have the prop
-             <a href="F_NCDK_IO_Iterator_IteratingSMILESReader_BadSmilesInput.htm">BadSmilesInput</a> set to the input line that
+             <a href="F_NCDK_IO_Iterator_EnumerableSMILESReader_BadSmilesInput.htm">BadSmilesInput</a> set to the input line that
              could not be read. 
             
              <p>For each line a molecule is generated, and multiple Molecules are
@@ -277,10 +277,10 @@
              This interface specifies the common functionality all IO readers should provide.
             
              IO readers should not implement this interface directly, but rather implement
-             one of its child interfaces: <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> or <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST642491DC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
+             one of its child interfaces: <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> or <a href="T_NCDK_IO_Iterator_IEnumerableChemObjectReader_1.htm">IEnumerableChemObjectReader<span id="LST642491DC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
              These sub-interfaces specify the information access methods:
              a simple Read() method for the <a href="T_NCDK_IO_ISimpleChemObjectReader.htm">ISimpleChemObjectReader</a> and
-             more advanced iterator based access for the <a href="T_NCDK_IO_Iterator_IIteratingChemObjectReader_1.htm">IIteratingChemObjectReader<span id="LST642491DC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> (suitable for large files)
+             more advanced iterator based access for the <a href="T_NCDK_IO_Iterator_IEnumerableChemObjectReader_1.htm">IEnumerableChemObjectReader<span id="LST642491DC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST642491DC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST642491DC_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> (suitable for large files)
              </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_IO_IChemObjectReaderErrorHandler.htm">IChemObjectReaderErrorHandler</a></td><td><div class="summary">
             Interface for classes aimed to handle <a href="T_NCDK_IO_IChemObjectReader.htm">IChemObjectReader</a> errors.
             </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_NCDK_IO_IChemObjectWriter.htm">IChemObjectWriter</a></td><td><div class="summary">
