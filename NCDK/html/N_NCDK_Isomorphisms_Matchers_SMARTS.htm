@@ -25,7 +25,7 @@
             It'll match any atom right now.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_ExplicitConnectionAtom.htm">ExplicitConnectionAtom</a></td><td><div class="summary">
             Match an atom with the defined degree. The degree is also referred to as the
-            explicit connectivity and is encoded in smarts using <span class="code">D&lt;NUMBER&gt;</span>.
+            explicit connectivity and is encoded in smarts using "D&lt;NUMBER&gt;".
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_FormalChargeAtom.htm">FormalChargeAtom</a></td><td><div class="summary">
             This matcher checks the formal charge of the Atom.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_HybridizationNumberAtom.htm">HybridizationNumberAtom</a></td><td><div class="summary">
@@ -59,20 +59,20 @@
             This smarts bond matches any bond that is in a ring.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_RingIdentifierAtom.htm">RingIdentifierAtom</a></td><td><div class="summary">
             This encapsulates an atom with a ring identifier, with an optional ring
-            bond specified. For example, <span class="code">C=1CCCCC1</span>.
+            bond specified. For example, "C=1CCCCC1".
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_RingMembershipAtom.htm">RingMembershipAtom</a></td><td><div class="summary">
             This query is found in a specified number of ring. The ring membership is
-            specified with the SMARTS <span class="code">R&lt;NUMBER&gt;</span>. The membership depends on the
+            specified with the SMARTS "R&lt;NUMBER&gt;". The membership depends on the
             ring set used and as such is not a portable term. If the Smallest Set of
             Smallest Rings (SSSR) is used then changing the order of atoms
             <i>may</i> change which atoms match in a pattern.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_SmallestRingAtom.htm">SmallestRingAtom</a></td><td><div class="summary">
-            Match an atom in a specific size ring. The ring size is specified by <span class="code">r&lt;NUMBER&gt;</span>
+            Match an atom in a specific size ring. The ring size is specified by "r&lt;NUMBER&gt;"
             in a SMARTS pattern. This term is non-portable, depending on the
             set of rings chosen and which ring sizes are used. The default implementation
             (Daylight) only stores the smallest ring each atom belongs to whilst other
             implementations may store multiple values. A more portable term is the
-            ring connectivity which is specified as <span class="code">x&lt;NUMBER&gt;</span>.
+            ring connectivity which is specified as "x&lt;NUMBER&gt;".
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_SMARTSAtom.htm">SMARTSAtom</a></td><td><div class="summary">
             Abstract smarts atom.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_SMARTSBond.htm">SMARTSBond</a></td><td><div class="summary">
@@ -86,17 +86,17 @@
             This query bond indicates a particular geometric stereo configuration.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_TotalConnectionAtom.htm">TotalConnectionAtom</a></td><td><div class="summary">
             This matches an atom using total number of connections - referred to in
-            SMARTS as the connectivity. The connectivity is specified using the <span class="code">X&lt;NUMBER&gt;</span> pattern.
+            SMARTS as the connectivity. The connectivity is specified using the "X&lt;NUMBER&gt;" pattern.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_TotalHCountAtom.htm">TotalHCountAtom</a></td><td><div class="summary">
             SMARTS query atom for matching the total hydrogen count. This count is
-            specified in SMARTS using <span class="code">H&lt;NUMBER&gt;</span>.
+            specified in SMARTS using "H&lt;NUMBER&gt;".
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_TotalRingConnectionAtom.htm">TotalRingConnectionAtom</a></td><td><div class="summary">
             This matcher checks the number of ring connections of the checked Atom with
             other Atom's. This cannot be matched without prepossessing Atom - <span class="nolink">SMARTSAtomInvariants</span>.
-            The ring connectivity is encoded in smarts using <span class="code">x&lt;NUMBER&gt;</span>.
+            The ring connectivity is encoded in smarts using "x&lt;NUMBER&gt;".
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_TotalValencyAtom.htm">TotalValencyAtom</a></td><td><div class="summary">
             This matcher checks the valence of the Atom. The valence is the number of
             bonds formed by an atom (including bonds to implicit hydrogens).
             </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="enumerationList"><tr><th class="iconColumn">
 					 
-				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_StereoBond_Direction.htm">StereoBond<span id="LSTB0851123_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB0851123_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Direction</a></td><td /></tr></table></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2017 Kazuya Ujihara</p> </div></body></html>
+				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_NCDK_Isomorphisms_Matchers_SMARTS_StereoBond_Direction.htm">StereoBond<span id="LSTB0851123_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB0851123_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Direction</a></td><td /></tr></table></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2018 Kazuya Ujihara</p> </div></body></html>
