@@ -1,1 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?><HelpTOCNode Title="IRing Methods" Url="html/Methods_T_NCDK_IRing.htm"><HelpTOCNode Title="GetNextBond Method " Url="html/M_NCDK_IRing_GetNextBond.htm" /></HelpTOCNode>
+﻿<?xml version="1.0" encoding="utf-8"?><HelpTOCNode Title="IRing Methods" Url="html/Methods_T_NCDK_IRing.htm"><HelpTOCNode Title="GetBondOrderSum Method " Url="html/Overload_NCDK_IRing_GetBondOrderSum.htm" HasChildren="true" /><HelpTOCNode Title="GetNextBond Method " Url="html/M_NCDK_IRing_GetNextBond.htm" /></HelpTOCNode>
