@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\ujiha\source\repos\NCDK\Documentation\Documentation.shfbproj" started="12/17/2018 11:23:00 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\ujiha\source\repos\NCDK\Documentation\Documentation.shfbproj" started="12/23/2018 12:11:06 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -36,16 +36,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0260
+</plugIn>    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1472
+    Last step completed in 00:00:00.0963
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/17/2018 11:23:12 PM.
+Build started 12/23/2018 12:11:24 PM.
 Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -153,19 +153,19 @@ MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\
   Source code location not found for NCDK.Tools.ILonePairElectronChecker
   Source code location not found for NCDK.Tools.ISaturationChecker
   Source code location not found for NCDK.Tools.Manipulator.SortMode
-  Wrote information on 112 namespaces, 1287 types, and 9715 members
+  Wrote information on 112 namespaces, 1288 types, and 9714 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:05:37.6610
+    Last step completed in 00:06:26.1473
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/17/2018 11:28:49 PM.
+Build started 12/23/2018 12:17:50 PM.
 Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -942,8 +942,6 @@ TransformManifest:
     Unique name M_NCDK_QSAR_Descriptors_Atomic_RDFProtonDescriptorGHRTopology_Result__ctor_1 generated for M:NCDK.QSAR.Descriptors.Atomic.RDFProtonDescriptorGHRTopology.Result.#ctor(System.Exception)
     Unique name M_NCDK_QSAR_Descriptors_Atomic_RDFProtonDescriptorGSR_Calculate_1 generated for M:NCDK.QSAR.Descriptors.Atomic.RDFProtonDescriptorGSR.Calculate(NCDK.IAtom,NCDK.IRingSet)
     Unique name M_NCDK_QSAR_Descriptors_Atomic_RDFProtonDescriptorGSR_Result__ctor_1 generated for M:NCDK.QSAR.Descriptors.Atomic.RDFProtonDescriptorGSR.Result.#ctor(System.Exception)
-    Unique name M_NCDK_QSAR_Descriptors_Atomic_VdWRadiusDescriptor__ctor_1 generated for M:NCDK.QSAR.Descriptors.Atomic.VdWRadiusDescriptor.#ctor(NCDK.IAtomContainer)
-    Unique name M_NCDK_QSAR_Descriptors_Bonds_AtomicNumberDifferenceDescriptor__ctor_1 generated for M:NCDK.QSAR.Descriptors.Bonds.AtomicNumberDifferenceDescriptor.#ctor(NCDK.IAtomContainer)
     Unique name M_NCDK_QSAR_Descriptors_Moleculars_ALogPDescriptor_Result__ctor_1 generated for M:NCDK.QSAR.Descriptors.Moleculars.ALogPDescriptor.Result.#ctor(System.Exception)
     Unique name M_NCDK_QSAR_Descriptors_Moleculars_AutocorrelationDescriptorCharge_Result__ctor_1 generated for M:NCDK.QSAR.Descriptors.Moleculars.AutocorrelationDescriptorCharge.Result.#ctor(System.Exception)
     Unique name M_NCDK_QSAR_Descriptors_Moleculars_BCUTDescriptor_Result__ctor_1 generated for M:NCDK.QSAR.Descriptors.Moleculars.BCUTDescriptor.Result.#ctor(System.Exception)
@@ -1309,11 +1307,11 @@ TransformManifest:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:19.7239
+    Last step completed in 00:00:12.4593
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:02.7474
+    Last step completed in 00:00:01.5541
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -1327,7 +1325,7 @@ Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\*.xml
 Indexing C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\NCDK.Display.xml
 Indexing C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\NCDK.xml
-Indexed 169001 members in 128 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 169000 members in 128 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 SHFB: Warning GID0004: No comments found for member &#39;P:NCDK.AtomRef.Valency&#39;
@@ -1411,7 +1409,7 @@ SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Renderers.Reacti
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Renderers.Visitors.WPFDrawVisitor.Visit(NCDK.Renderers.Elements.IRenderingElement,System.Windows.Media.Transform)&#39;
 
 Documentation merged successfully
-    Last step completed in 00:00:20.4185
+    Last step completed in 00:00:13.5199
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1426,6 +1424,8 @@ Generating conceptual topic files
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\Welcome.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\e2ff06cc-99b7-4f8b-95c5-53965548639f.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\VersionHistory.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\38e429c1-4197-40a9-a1ee-8b5f4c592a1c.xml
+    Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.1.0.aml&#39;
+    C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.1.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\2596a4ac-1470-4cbf-a672-b98243cd4347.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.0.1.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.0.1.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\bb4fe023-dcc8-4325-9925-2f36b1dd4de4.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.3.1.0.aml&#39;
@@ -1446,29 +1446,29 @@ Generating conceptual topic files
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.2.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\5c1f7bab-480e-41fb-b16b-aab842a90ef8.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\ce71932b-728b-4efb-b633-b2576df0de36.xml
-    Last step completed in 00:00:00.3309
+    Last step completed in 00:00:00.1822
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.1772
+    Last step completed in 00:00:00.1183
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\ujiha\source\repos\NCDK\Documentation\icons\Help.png -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\icons\Help.png
 C:\Users\ujiha\source\repos\NCDK\Documentation\media\header.svg -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\media\header.svg
-    Last step completed in 00:00:00.0260
+    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/17/2018 11:29:33 PM.
+Build started 12/23/2018 12:18:18 PM.
 Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -1477,12 +1477,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:03.5479
+    Last step completed in 00:00:01.7363
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:01.1189
+    Last step completed in 00:00:00.7656
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1492,12 +1492,12 @@ C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\sandcastle.config
   Updating conceptual topic configurations.
     Skipping component &#39;API Token Resolution&#39;, not used in conceptual build
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/17/2018 11:29:37 PM.
+Build started 12/23/2018 12:18:21 PM.
 Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -1728,18 +1728,18 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipul
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillWithCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillNoCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillWithCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
-  Processed 13926 topic(s)
+  Processed 13927 topic(s)
   223 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 12 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 7 of 30.
 Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:02:00.7519
+    Last step completed in 00:01:58.7172
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1707
+    Last step completed in 00:00:00.1792
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1751,11 +1751,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website
-Processed 13925 HTML files
+Processed 13926 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:23.0826
+    Last step completed in 00:00:24.5573
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1837,18 +1837,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.8789
+    Last step completed in 00:00:00.8704
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0015
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:51.2746
+</plugIn>    Last step completed in 00:01:10.8358
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1888,16 +1888,16 @@ Copied 16000 files
 Copied 16500 files
 Copied 17000 files
 Copied 17500 files
-Copied 17990 files for the website content
-    Last step completed in 00:01:06.0257
+Copied 17991 files for the website content
+    Last step completed in 00:00:55.6298
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:12.9468
+    Last step completed in 00:00:10.0204
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/17/2018 11:34:12 PM.  Total time: 00:11:11.9064
+Build completed successfully at 12/23/2018 12:23:01 PM.  Total time: 00:11:55.6888
 
 </buildStep>
 </shfbBuild>
