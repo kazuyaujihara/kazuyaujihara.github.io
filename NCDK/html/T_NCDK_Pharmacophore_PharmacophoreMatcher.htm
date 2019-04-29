@@ -82,7 +82,7 @@
             be a pharmacophore group that is meant to match a 5 membered ring or a 6 membered ring. This cannot be
             written in a single ordinary SMARTS pattern. However using this one extension one can write
             "A1AAAA1|A1AAAAA1".
-            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID6RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">QueryAtomContainer query = <span class="highlight-keyword">new</span> QueryAtomContainer(ChemObjectBuilder.Instance);
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID6RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">QueryAtomContainer query = <span class="highlight-keyword">new</span> QueryAtomContainer();
 
 PharmacophoreQueryAtom o = <span class="highlight-keyword">new</span> PharmacophoreQueryAtom(<span class="highlight-literal">"D"</span>, <span class="highlight-literal">"[OX1]"</span>);
 PharmacophoreQueryAtom n1 = <span class="highlight-keyword">new</span> PharmacophoreQueryAtom(<span class="highlight-literal">"A"</span>, <span class="highlight-literal">"[N]"</span>);
@@ -100,10 +100,10 @@ query.Bonds.Add(b1);
 query.Bonds.Add(b2);
 query.Bonds.Add(b3);
 
-<span class="highlight-keyword">string</span> filename = <span class="highlight-literal">"/Users/rguha/pcore1.sdf"</span>;
+<span class="highlight-keyword">string</span> filename = <span class="highlight-literal">"C:/Users/rguha/pcore1.sdf"</span>;
 <span class="highlight-keyword">using</span> (<span class="highlight-keyword">var</span> srm = <span class="highlight-keyword">new</span> FileStream(filename, FileMode.Open))
 {
-    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conformers <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> IEnumerableMDLConformerReader(srm, ChemObjectBuilder.Instance))
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conformers <span class="highlight-keyword">in</span> <span class="highlight-keyword">new</span> EnumerableMDLConformerReader(srm))
     {
         <span class="highlight-keyword">bool</span> firstTime = <span class="highlight-keyword">true</span>;
         <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> conf <span class="highlight-keyword">in</span> conformers)

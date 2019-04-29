@@ -26,47 +26,49 @@
 		</script><a target="_blank" class="button" href="https://github.com/kazuyaujihara/NCDK/tree/master/NCDK/Isomorphisms/Matchers/QueryAtomContainer.cs" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">mol</span></dt><dd>Type: <a href="T_NCDK_IAtomContainer.htm">NCDK<span id="LST92A8F45E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST92A8F45E_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IAtomContainer</a><br />the molecule</dd><dt><span class="parameter">opts</span></dt><dd>Type: <span id="LST92A8F45E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST92A8F45E_2?cpp=array&lt;");</script><a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">NCDK.Isomorphisms.Matchers<span id="LST92A8F45E_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST92A8F45E_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ExprType</a><span id="LST92A8F45E_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST92A8F45E_4?cpp=&gt;|vb=()|nu=[]");</script><br />set of the expr types to match</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="T_NCDK_Isomorphisms_Matchers_QueryAtomContainer.htm">QueryAtomContainer</a><br />the query molecule</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection">
             A good starting point is the following options:
             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAZDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAZDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAZDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt; n1:c:c:c(=O):c:c:1</span>
-QueryAtomContainer.create(mol, ALIPHATIC_ELEMENT,
-                               AROMATIC_ELEMENT,
-                               SingleOrAromatic,
-                               ALIPHATIC_ORDER,
-                               STEREOCHEMISTRY);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAZDBA");</script>
+QueryAtomContainer.Create(mol,
+    ExprType.AliphaticElement,
+    ExprType.AromaticElement,
+    ExprType.SingleOrAromatic,
+    ExprType.AliphaticOrder,
+    ExprType.Stereochemistry);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAZDBA");</script>
             Specifying <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">Degree</a> (or <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">TotalDegree</a> +
             <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">ImplicitHCount</a>) means the molecule will not match as a
             substructure.
             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EARDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EARDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EARDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt; [nD2]1:[cD2]:[cD2]:[cD2](=[OD1]):[cD2]:[cD2]:1</span>
-QueryAtomContainer.create(mol, AliphaticElement,
-                               AromaticElement,
-                               Degree,
-                               SingleOrAromatic,
-                               AromaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EARDBA");</script>
+QueryAtomContainer.Create(mol,
+    ExprType.AliphaticElement,
+    ExprType.AromaticElement,
+    ExprType.Degree,
+    ExprType.SingleOrAromatic,
+    ExprType.AliphaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EARDBA");</script>
             The <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">RingBondCount</a> property is useful for locking in
             ring systems. Specifying the ring bond count on benzene means it will
             not match larger ring systems (e.g. naphthalenee) but can still be
             substituted.
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EANDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EANDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EANDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt;</span>
-<span class="highlight-comment">//   [nx2+0]1:[cx2+0]:[cx2+0]:[cx2+0](=[O&amp;x0+0]):[cx2+0]:[cx2+0]:1</span>
-<span class="highlight-comment">// IMPORTANT! use Cycles.markRingAtomsAndBonds(mol) to set ring status</span>
-QueryAtomContainer.create(mol, AliphaticElement,
-                               AromaticElement,
-                               FormalCharge,
-                               Isotope,
-                               RingBondCount,
-                               SingleOrAromatic,
-                               AliphaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EANDBA");</script>
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EANDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EANDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EANDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt; [nx2+0]1:[cx2+0]:[cx2+0]:[cx2+0](=[O&amp;x0+0]):[cx2+0]:[cx2+0]:1</span>
+<span class="highlight-comment">// IMPORTANT! use Cycles.MarkRingAtomsAndBonds(mol) to set ring status</span>
+QueryAtomContainer.Create(mol,
+    ExprType.AliphaticElement,
+    ExprType.AromaticElement,
+    ExprType.FormalCharge,
+    ExprType.Isotope,
+    ExprType.RingBondCount,
+    ExprType.SingleOrAromatic,
+    ExprType.AliphaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EANDBA");</script>
             Note that <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">FormalCharge</a>,
             <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">ImplicitHCount</a>, and <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">Isotope</a> are ignored
             if <span class="keyword"><span id="LST92A8F45E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST92A8F45E_5?vb=Nothing|cpp=nullptr|nu=null");</script></span>. Explicitly setting these to zero (only required for Isotope from
             SMILES) forces their inclusion.
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EADDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EADDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EADDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt;</span>
-<span class="highlight-comment">//   [0n+0]1:[0c+0]:[0c+0]:[0c+0](=[O+0]):[0c+0]:[0c+0]:1</span>
-QueryAtomContainer.create(mol, AliphaticElement,
-                               AromaticElement,
-                               FormalCharge,
-                               Isotope,
-                               RingBondCount,
-                               SingleOrAromatic,
-                               AliphaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EADDBA");</script>
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EADDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EADDBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EADDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// [nH]1ccc(=O)cc1 =&gt; [0n+0]1:[0c+0]:[0c+0]:[0c+0](=[O+0]):[0c+0]:[0c+0]:1</span>
+QueryAtomContainer.Create(mol,
+    ExprType.AliphaticElement,
+    ExprType.AromaticElement,
+    ExprType.FormalCharge,
+    ExprType.Isotope,
+    ExprType.RingBondCount,
+    ExprType.SingleOrAromatic,
+    ExprType.AliphaticOrder);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EADDBA");</script>
             Please note not all <a href="T_NCDK_Isomorphisms_Matchers_ExprType.htm">ExprType</a>s are currently supported, if you
             require a specific type that you think is useful please open an issue.
             </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_NCDK_Isomorphisms_Matchers_QueryAtomContainer.htm">QueryAtomContainer Class</a></div><div class="seeAlsoStyle"><a href="N_NCDK_Isomorphisms_Matchers.htm">NCDK.Isomorphisms.Matchers Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2018 Kazuya Ujihara</p> </div></body></html>

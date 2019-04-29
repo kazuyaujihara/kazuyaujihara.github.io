@@ -22,53 +22,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_NCDK_SMARTS_Smarts__ctor.htm">Smarts</a></td><td><div class="summary">Initializes a new instance of the <span class="selflink">Smarts</span> class</div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_SMARTS_Smarts_Generate.htm">Generate</a></td><td><div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_NCDK_SMARTS_Smarts_Generate.htm">Generate</a></td><td><div class="summary">
             Generate a SMARTS string from the provided molecule. The generator uses
-            <a href="T_NCDK_Isomorphisms_Matchers_Expr.htm">Expr</a>s stored on the {@link QueryAtom} and {@link QueryBond}
+            <a href="T_NCDK_Isomorphisms_Matchers_Expr.htm">Expr</a>s stored on the <a href="T_NCDK_Isomorphisms_Matchers_QueryAtom.htm">QueryAtom</a> and <a href="T_NCDK_Isomorphisms_Matchers_QueryBond.htm">QueryBond</a>
             instances.
-            <pre>
-            {@code
-            IAtomContainer mol = ...;
-            QueryAtom qatom1 = new QueryAtom(mol.Builder);
-            QueryAtom qatom2 = new QueryAtom(mol.Builder);
-            QueryBond qbond  = new QueryBond(mol.Builder);
-            qatom1.setExpression(new Expr(TypeOfExpression.IS_AROMATIC));
-            qatom2.setExpression(new Expr(TypeOfExpression.IS_AROMATIC));
-            qbond.setExpression(new Expr(TypeOfExpression.IS_ALIPHATIC));
-            qbond.setAtoms(new IAtom[]{qatom1, qatom2});
-            mol.addAtom(qatom1);
-            mol.addAtom(qatom2);
-            mol.AddBond(qbond);
-            String smartsStr = Smarts.Generate(mol);
-            // smartsStr = 'a!:a'
-            }
-            </pre>
-            @param mol the query molecule
-            @return the SMARTS
-            @see Expr
-            @see org.openscience.cdk.isomorphism.matchers.IQueryAtom
-            @see org.openscience.cdk.isomorphism.matchers.IQueryBond
-            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_SMARTS_Smarts_GenerateAtom.htm">GenerateAtom</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_NCDK_SMARTS_Smarts_GenerateAtom.htm">GenerateAtom</a></td><td><div class="summary">
             Utility to generate an atom expression.
-            <pre>{@code
-            Expr   expr  = new Expr(TypeOfExpression.DEGREE, 4).And(
-                             new Expr(TypeOfExpression.IS_AROMATIC));
-            String aExpr = Smarts.GenerateAtom(expr);
-            // aExpr='[D4a]'
-            }</pre>
-            @see Expr
-            @param expr the expression
-            @return the SMARTS atom expression
-            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_SMARTS_Smarts_GenerateBond.htm">GenerateBond</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_NCDK_SMARTS_Smarts_GenerateBond.htm">GenerateBond</a></td><td><div class="summary">
             Utility to generate a bond expression.
-            <pre>{@code
-            Expr   expr  = new Expr(TypeOfExpression.TRUE);
-            String bExpr = Smarts.GenerateBond(expr);
-            // bExpr='~'
-            }</pre>
-            @see Expr
-            @param expr the expression
-            @return the SMARTS atom expression
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_NCDK_SMARTS_Smarts_GetLastErrorLocation.htm">GetLastErrorLocation</a></td><td><div class="summary">
             Access a display of the error position from previously parsed SMARTS
             (when <a href="M_NCDK_SMARTS_Smarts_Parse.htm">Parse(IAtomContainer, String)</a> = <span class="keyword"><span id="LST621DF890_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST621DF890_2?vb=False|nu=false");</script></span>)
@@ -91,10 +52,9 @@
             to the connection table. Each query atom/bond contains an <a href="T_NCDK_Isomorphisms_Matchers_Expr.htm">Expr</a> that
             describes the predicate to check when matching. This <a href="T_NCDK_Isomorphisms_Matchers_Expr.htm">Expr</a> is also
             used for generating SMARTS.
-            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">IAtomContainer mol = ...;
-<span class="highlight-keyword">if</span> (Smarts.Parse(mol, <span class="highlight-literal">"[aD3]a-a([aD3])[aD3]"</span>)) 
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">if</span> (Smarts.Parse(mol, <span class="highlight-literal">"[aD3]a-a([aD3])[aD3]"</span>))
 {
-    String smarts = Smarts.Generate(mol);
+    <span class="highlight-keyword">var</span> smarts = Smarts.Generate(mol);
 }</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADABA");</script>
             When parsing SMARTS several flavors are available. The flavors affect how
             queries are interpreted. The following flavors are available:

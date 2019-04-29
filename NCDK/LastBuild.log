@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\ujiha\source\repos\NCDK\Documentation\Documentation.shfbproj" started="12/23/2018 12:11:06 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Users\ujiha\source\repos\NCDK\Documentation\Documentation.shfbproj" started="2019/04/29 9:55:44">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -34,21 +34,21 @@ Copying XML comments files
     C:\Users\ujiha\source\repos\NCDK\NCDK.Display\bin\Release\net461\NCDK.xml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\NCDK.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
-Generating shared content files (en-US, English (United States))...
+Generating shared content files (en-US, 英語 (米国))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0110
+</plugIn>    Last step completed in 00:00:00.0260
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0963
+    Last step completed in 00:00:00.1209
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/23/2018 12:11:24 PM.
-Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+2019/04/29 9:55:55 にビルドを開始しました。
+ノード 1 上のプロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; (既定のターゲット)。
 PrepareForBuild:
-  Creating directory &quot;obj\Debug\&quot;.
+  ディレクトリ &quot;obj\Debug\&quot; を作成しています。
 GenerateRefInfo:
   MRefBuilder (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -91,12 +91,10 @@ MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\
   Source code location not found for NCDK.IO.Formats.FenskeHallZMatrixFormat
   Source code location not found for NCDK.IO.Formats.IChemFormatMatcher
   Source code location not found for NCDK.IO.Formats.MatchResult
-  Source code location not found for NCDK.IO.Iterator.IEnumerableMDLConformerReader
   Source code location not found for NCDK.IO.RandomAccess.IRandomAccessChemObjectReader`1
   Source code location not found for NCDK.IO.Setting.Importance
   Source code location not found for NCDK.Isomorphisms.Matchers.ExprType
   Source code location not found for NCDK.Isomorphisms.Matchers.ExprTypeTool
-  Source code location not found for NCDK.Isomorphisms.Matchers.SMARTS.ReactionRoles
   Source code location not found for NCDK.LibIO.CML.CMLArray
   Source code location not found for NCDK.LibIO.CML.CMLAtom
   Source code location not found for NCDK.LibIO.CML.CMLBond
@@ -145,7 +143,6 @@ MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\
   Source code location not found for NCDK.SMARTS.SmartsFlaver
   Source code location not found for NCDK.SMARTS.SubstructureSelectionMode
   Source code location not found for NCDK.Smiles.SmiFlavors
-  Source code location not found for NCDK.SMSD.AlgorithmTools
   Source code location not found for NCDK.Stereo.CenterType
   Source code location not found for NCDK.Stereo.CoordinateType
   Source code location not found for NCDK.Stereo.ProjectionTools
@@ -153,26 +150,26 @@ MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\
   Source code location not found for NCDK.Tools.ILonePairElectronChecker
   Source code location not found for NCDK.Tools.ISaturationChecker
   Source code location not found for NCDK.Tools.Manipulator.SortMode
-  Wrote information on 112 namespaces, 1288 types, and 9714 members
-  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  Wrote information on 93 namespaces, 1154 types, and 9026 members
+  &quot;reflection.org&quot; から &quot;reflection.all&quot; へファイルをコピーしています。
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:06:26.1473
+プロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateRefInfo.proj&quot; (既定のターゲット) のビルドが完了しました。
+    Last step completed in 00:06:27.2710
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/23/2018 12:17:50 PM.
-Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+2019/04/29 10:02:22 にビルドを開始しました。
+ノード 1 上のプロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; (既定のターゲット)。
 TransformManifest:
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
-  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  &quot;reflection.xml&quot; から &quot;reflection.nofilenames&quot; へファイルをコピーしています。
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
@@ -218,6 +215,7 @@ TransformManifest:
     Unique name M_NCDK_IAtomContainer_Contains_4 generated for M:NCDK.IAtomContainer.Contains(NCDK.ISingleElectron)
     Unique name M_NCDK_IAtomContainer_Remove_1 generated for M:NCDK.IAtomContainer.Remove(NCDK.IElectronContainer)
     Unique name M_NCDK_IAtomContainer_RemoveAtom_1 generated for M:NCDK.IAtomContainer.RemoveAtom(System.Int32)
+    Unique name M_NCDK_IAtomContainer_RemoveBond_1 generated for M:NCDK.IAtomContainer.RemoveBond(NCDK.IBond)
     Unique name M_NCDK_IBioPolymer_AddAtom_1 generated for M:NCDK.IBioPolymer.AddAtom(NCDK.IAtom,NCDK.IStrand)
     Unique name M_NCDK_IChemObject_GetProperty__1_1 generated for M:NCDK.IChemObject.GetProperty``1(System.Object,``0)
     Unique name M_NCDK_IChemObjectBuilder_NewAdductFormula_1 generated for M:NCDK.IChemObjectBuilder.NewAdductFormula(NCDK.IMolecularFormula)
@@ -344,6 +342,7 @@ TransformManifest:
     Unique name M_NCDK_Default_AtomContainer_Contains_4 generated for M:NCDK.Default.AtomContainer.Contains(NCDK.ISingleElectron)
     Unique name M_NCDK_Default_AtomContainer_Remove_1 generated for M:NCDK.Default.AtomContainer.Remove(NCDK.IElectronContainer)
     Unique name M_NCDK_Default_AtomContainer_RemoveAtom_1 generated for M:NCDK.Default.AtomContainer.RemoveAtom(System.Int32)
+    Unique name M_NCDK_Default_AtomContainer_RemoveBond_1 generated for M:NCDK.Default.AtomContainer.RemoveBond(NCDK.IBond)
     Unique name M_NCDK_Default_AtomType__ctor_1 generated for M:NCDK.Default.AtomType.#ctor(NCDK.IElement)
     Unique name M_NCDK_Default_AtomType__ctor_2 generated for M:NCDK.Default.AtomType.#ctor(System.Int32,System.Nullable{System.Int32})
     Unique name M_NCDK_Default_AtomType__ctor_3 generated for M:NCDK.Default.AtomType.#ctor(System.String,System.Nullable{System.Int32})
@@ -479,8 +478,6 @@ TransformManifest:
     Unique name M_NCDK_Fingerprints_IntArrayFingerprint_And_1 generated for M:NCDK.Fingerprints.IntArrayFingerprint.And(NCDK.Fingerprints.IntArrayFingerprint)
     Unique name M_NCDK_Fingerprints_IntArrayFingerprint_Or_1 generated for M:NCDK.Fingerprints.IntArrayFingerprint.Or(NCDK.Fingerprints.IntArrayFingerprint)
     Unique name M_NCDK_Fingerprints_LingoFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.LingoFingerprinter.#ctor(System.Int32)
-    Unique name M_NCDK_Fingerprints_MACCSFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.MACCSFingerprinter.#ctor(NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Fingerprints_PubchemFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.PubchemFingerprinter.#ctor(NCDK.IChemObjectBuilder)
     Unique name M_NCDK_Fingerprints_ShortestPathFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.ShortestPathFingerprinter.#ctor(System.Int32)
     Unique name M_NCDK_Fingerprints_SignatureFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.SignatureFingerprinter.#ctor(System.Int32)
     Unique name M_NCDK_Fingerprints_SubstructureFingerprinter__ctor_1 generated for M:NCDK.Fingerprints.SubstructureFingerprinter.#ctor(System.Collections.Generic.IEnumerable{System.String})
@@ -683,17 +680,27 @@ TransformManifest:
     Unique name M_NCDK_IO_Iterator_DefaultEnumerableChemObjectReader_1_HandleError_1 generated for M:NCDK.IO.Iterator.DefaultEnumerableChemObjectReader`1.HandleError(System.String,System.Exception)
     Unique name M_NCDK_IO_Iterator_DefaultEnumerableChemObjectReader_1_HandleError_2 generated for M:NCDK.IO.Iterator.DefaultEnumerableChemObjectReader`1.HandleError(System.String,System.Int32,System.Int32,System.Int32)
     Unique name M_NCDK_IO_Iterator_DefaultEnumerableChemObjectReader_1_HandleError_3 generated for M:NCDK.IO.Iterator.DefaultEnumerableChemObjectReader`1.HandleError(System.String,System.Int32,System.Int32,System.Int32,System.Exception)
-    Unique name M_NCDK_IO_Iterator_EnumerablePCCompoundASNReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerablePCCompoundASNReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableMDLConformerReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerableMDLConformerReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableMDLConformerReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerableMDLConformerReader.#ctor(System.IO.TextReader)
+    Unique name M_NCDK_IO_Iterator_EnumerableMDLConformerReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerableMDLConformerReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableMDLConformerReader_Dispose_1 generated for M:NCDK.IO.Iterator.EnumerableMDLConformerReader.Dispose(System.Boolean)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCCompoundASNReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerablePCCompoundASNReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCCompoundASNReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerablePCCompoundASNReader.#ctor(System.IO.TextReader)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCCompoundASNReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerablePCCompoundASNReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
     Unique name M_NCDK_IO_Iterator_EnumerablePCCompoundXMLReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerablePCCompoundXMLReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_IO_Iterator_EnumerablePCSubstancesXMLReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerablePCSubstancesXMLReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder,System.Boolean)
-    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder,System.Boolean)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCSubstancesXMLReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerablePCSubstancesXMLReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCSubstancesXMLReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerablePCSubstancesXMLReader.#ctor(System.IO.TextReader)
+    Unique name M_NCDK_IO_Iterator_EnumerablePCSubstancesXMLReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerablePCSubstancesXMLReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder,System.Boolean)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.Stream,System.Boolean)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_4 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_5 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_6 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder,System.Boolean)
+    Unique name M_NCDK_IO_Iterator_EnumerableSDFReader__ctor_7 generated for M:NCDK.IO.Iterator.EnumerableSDFReader.#ctor(System.IO.TextReader,System.Boolean)
     Unique name M_NCDK_IO_Iterator_EnumerableSMILESReader__ctor_1 generated for M:NCDK.IO.Iterator.EnumerableSMILESReader.#ctor(System.IO.Stream,NCDK.IChemObjectBuilder)
     Unique name M_NCDK_IO_Iterator_EnumerableSMILESReader__ctor_2 generated for M:NCDK.IO.Iterator.EnumerableSMILESReader.#ctor(System.IO.TextReader)
     Unique name M_NCDK_IO_Iterator_EnumerableSMILESReader__ctor_3 generated for M:NCDK.IO.Iterator.EnumerableSMILESReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_IO_Iterator_IEnumerableMDLConformerReader__ctor_1 generated for M:NCDK.IO.Iterator.IEnumerableMDLConformerReader.#ctor(System.IO.TextReader,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_IO_Iterator_IEnumerableMDLConformerReader_Dispose_1 generated for M:NCDK.IO.Iterator.IEnumerableMDLConformerReader.Dispose(System.Boolean)
     Unique name M_NCDK_IO_RandomAccess_RandomAccessChemObjectReader_1_Dispose_1 generated for M:NCDK.IO.RandomAccess.RandomAccessChemObjectReader`1.Dispose(System.Boolean)
     Unique name M_NCDK_IO_RandomAccess_RandomAccessSDFReader__ctor_1 generated for M:NCDK.IO.RandomAccess.RandomAccessSDFReader.#ctor(System.String,NCDK.IChemObjectBuilder)
     Unique name M_NCDK_IO_RandomAccess_RandomAccessSDFReader__ctor_2 generated for M:NCDK.IO.RandomAccess.RandomAccessSDFReader.#ctor(System.String,NCDK.IChemObjectBuilder,NCDK.IO.Listener.IReaderListener)
@@ -705,8 +712,8 @@ TransformManifest:
     Unique name M_NCDK_Isomorphisms_IsomorphismTester_IsIsomorphic_1 generated for M:NCDK.Isomorphisms.IsomorphismTester.IsIsomorphic(NCDK.IAtomContainer,NCDK.IAtomContainer)
     Unique name M_NCDK_Isomorphisms_Pattern_MatchAll_1 generated for M:NCDK.Isomorphisms.Pattern.MatchAll(NCDK.IReaction)
     Unique name M_NCDK_Isomorphisms_Pattern_Matches_1 generated for M:NCDK.Isomorphisms.Pattern.Matches(NCDK.IReaction)
-    Unique name M_NCDK_Isomorphisms_VentoFoggia_FindIdentical_1 generated for M:NCDK.Isomorphisms.VentoFoggia.FindIdentical(NCDK.IAtomContainer,NCDK.Isomorphisms.AtomMatcher,NCDK.Isomorphisms.BondMatcher)
-    Unique name M_NCDK_Isomorphisms_VentoFoggia_FindSubstructure_1 generated for M:NCDK.Isomorphisms.VentoFoggia.FindSubstructure(NCDK.IAtomContainer,NCDK.Isomorphisms.AtomMatcher,NCDK.Isomorphisms.BondMatcher)
+    Unique name M_NCDK_Isomorphisms_VentoFoggia_CreateIdenticalFinder_1 generated for M:NCDK.Isomorphisms.VentoFoggia.CreateIdenticalFinder(NCDK.IAtomContainer,NCDK.Isomorphisms.AtomMatcher,NCDK.Isomorphisms.BondMatcher)
+    Unique name M_NCDK_Isomorphisms_VentoFoggia_CreateSubstructureFinder_1 generated for M:NCDK.Isomorphisms.VentoFoggia.CreateSubstructureFinder(NCDK.IAtomContainer,NCDK.Isomorphisms.AtomMatcher,NCDK.Isomorphisms.BondMatcher)
     Unique name M_NCDK_Isomorphisms_Matchers_Expr__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.Expr.#ctor(NCDK.Isomorphisms.Matchers.Expr)
     Unique name M_NCDK_Isomorphisms_Matchers_Expr__ctor_2 generated for M:NCDK.Isomorphisms.Matchers.Expr.#ctor(NCDK.Isomorphisms.Matchers.ExprType)
     Unique name M_NCDK_Isomorphisms_Matchers_Expr__ctor_3 generated for M:NCDK.Isomorphisms.Matchers.Expr.#ctor(NCDK.Isomorphisms.Matchers.ExprType,NCDK.IAtomContainer)
@@ -716,28 +723,20 @@ TransformManifest:
     Unique name M_NCDK_Isomorphisms_Matchers_Expr_Matches_2 generated for M:NCDK.Isomorphisms.Matchers.Expr.Matches(NCDK.IBond)
     Unique name M_NCDK_Isomorphisms_Matchers_Expr_Matches_3 generated for M:NCDK.Isomorphisms.Matchers.Expr.Matches(NCDK.IBond,System.Int32)
     Unique name M_NCDK_Isomorphisms_Matchers_Expr_SetPrimitive_1 generated for M:NCDK.Isomorphisms.Matchers.Expr.SetPrimitive(NCDK.Isomorphisms.Matchers.ExprType,System.Int32)
-    Unique name M_NCDK_Isomorphisms_Matchers_OrderQueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.OrderQueryBond.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_OrderQueryBondOrderOnly__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.OrderQueryBondOrderOnly.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
     Unique name M_NCDK_Isomorphisms_Matchers_QueryAtom__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.QueryAtom.#ctor(NCDK.Isomorphisms.Matchers.Expr)
     Unique name M_NCDK_Isomorphisms_Matchers_QueryAtom__ctor_2 generated for M:NCDK.Isomorphisms.Matchers.QueryAtom.#ctor(NCDK.Isomorphisms.Matchers.ExprType)
     Unique name M_NCDK_Isomorphisms_Matchers_QueryAtom__ctor_3 generated for M:NCDK.Isomorphisms.Matchers.QueryAtom.#ctor(NCDK.Isomorphisms.Matchers.ExprType,System.Int32)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryAtom__ctor_4 generated for M:NCDK.Isomorphisms.Matchers.QueryAtom.#ctor(System.String,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryAtomContainer__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.QueryAtomContainer.#ctor(NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_2 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.Expr)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_3 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.ExprType)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_4 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.ExprType,System.Int32)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_5 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom[],NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_6 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom[],NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_7 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryAtom__ctor_4 generated for M:NCDK.Isomorphisms.Matchers.QueryAtom.#ctor(System.String)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryAtomContainer__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.QueryAtomContainer.#ctor(NCDK.IAtomContainer)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.BondOrder)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_2 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.BondOrder,NCDK.BondStereo)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_3 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.Expr)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_4 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.ExprType)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_5 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom,NCDK.IAtom,NCDK.Isomorphisms.Matchers.ExprType,System.Int32)
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_6 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom[])
+    Unique name M_NCDK_Isomorphisms_Matchers_QueryBond__ctor_7 generated for M:NCDK.Isomorphisms.Matchers.QueryBond.#ctor(NCDK.IAtom[],NCDK.BondOrder)
     Unique name M_NCDK_Isomorphisms_Matchers_RGroupList__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.RGroupList.#ctor(System.Int32,System.Boolean,System.String,System.Int32)
-    Unique name M_NCDK_Isomorphisms_Matchers_SymbolAndChargeQueryAtom__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SymbolAndChargeQueryAtom.#ctor(NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SymbolChargeIDQueryAtom__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SymbolChargeIDQueryAtom.#ctor(NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SymbolQueryAtom__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SymbolQueryAtom.#ctor(NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SMARTS_AnyOrderQueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SMARTS.AnyOrderQueryBond.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SMARTS_AromaticOrSingleQueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SMARTS.AromaticOrSingleQueryBond.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SMARTS_AromaticQueryBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SMARTS.AromaticQueryBond.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Isomorphisms_Matchers_SMARTS_SMARTSBond__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SMARTS.SMARTSBond.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.BondOrder,NCDK.IChemObjectBuilder)
+    Unique name M_NCDK_Isomorphisms_Matchers_SymbolChargeIDQueryAtom__ctor_1 generated for M:NCDK.Isomorphisms.Matchers.SymbolChargeIDQueryAtom.#ctor(NCDK.IAtom)
     Unique name M_NCDK_Layout_AtomPlacer_MarkPlaced_1 generated for M:NCDK.Layout.AtomPlacer.MarkPlaced(NCDK.IAtomContainer,System.Boolean)
     Unique name M_NCDK_Layout_HydrogenPlacer_PlaceHydrogens2D_1 generated for M:NCDK.Layout.HydrogenPlacer.PlaceHydrogens2D(NCDK.IAtomContainer,NCDK.IAtom,System.Double)
     Unique name M_NCDK_Layout_HydrogenPlacer_PlaceHydrogens2D_2 generated for M:NCDK.Layout.HydrogenPlacer.PlaceHydrogens2D(NCDK.IAtomContainer,System.Double)
@@ -1059,6 +1058,7 @@ TransformManifest:
     Unique name M_NCDK_Silent_AtomContainer_Contains_4 generated for M:NCDK.Silent.AtomContainer.Contains(NCDK.ISingleElectron)
     Unique name M_NCDK_Silent_AtomContainer_Remove_1 generated for M:NCDK.Silent.AtomContainer.Remove(NCDK.IElectronContainer)
     Unique name M_NCDK_Silent_AtomContainer_RemoveAtom_1 generated for M:NCDK.Silent.AtomContainer.RemoveAtom(System.Int32)
+    Unique name M_NCDK_Silent_AtomContainer_RemoveBond_1 generated for M:NCDK.Silent.AtomContainer.RemoveBond(NCDK.IBond)
     Unique name M_NCDK_Silent_AtomType__ctor_1 generated for M:NCDK.Silent.AtomType.#ctor(NCDK.IElement)
     Unique name M_NCDK_Silent_AtomType__ctor_2 generated for M:NCDK.Silent.AtomType.#ctor(System.Int32,System.Nullable{System.Int32})
     Unique name M_NCDK_Silent_AtomType__ctor_3 generated for M:NCDK.Silent.AtomType.#ctor(System.String,System.Nullable{System.Int32})
@@ -1158,7 +1158,6 @@ TransformManifest:
     Unique name M_NCDK_Similarity_Tanimoto_Calculate_3 generated for M:NCDK.Similarity.Tanimoto.Calculate(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Int32},System.Collections.Generic.IReadOnlyDictionary{System.String,System.Int32})
     Unique name M_NCDK_Similarity_Tanimoto_Calculate_4 generated for M:NCDK.Similarity.Tanimoto.Calculate(System.Double[],System.Double[])
     Unique name M_NCDK_SMARTS_Smarts_Parse_1 generated for M:NCDK.SMARTS.Smarts.Parse(NCDK.IAtomContainer,System.String,NCDK.SMARTS.SmartsFlaver)
-    Unique name M_NCDK_SMARTS_SmartsPattern_Create_1 generated for M:NCDK.SMARTS.SmartsPattern.Create(System.String,NCDK.IChemObjectBuilder)
     Unique name M_NCDK_Smiles_DeduceBondSystemTool__ctor_1 generated for M:NCDK.Smiles.DeduceBondSystemTool.#ctor(NCDK.RingSearches.AllRingsFinder)
     Unique name M_NCDK_Smiles_InvPair__ctor_1 generated for M:NCDK.Smiles.InvPair.#ctor(System.Int64,NCDK.IAtom)
     Unique name M_NCDK_Smiles_SmilesGenerator__ctor_1 generated for M:NCDK.Smiles.SmilesGenerator.#ctor(NCDK.Smiles.SmiFlavors)
@@ -1169,60 +1168,6 @@ TransformManifest:
     Unique name M_NCDK_Smiles_SmilesGenerator_CreateSMILES_1 generated for M:NCDK.Smiles.SmilesGenerator.CreateSMILES(NCDK.IReaction)
     Unique name M_NCDK_Smiles_SmilesParser__ctor_1 generated for M:NCDK.Smiles.SmilesParser.#ctor(NCDK.IChemObjectBuilder)
     Unique name M_NCDK_Smiles_SmilesParser__ctor_2 generated for M:NCDK.Smiles.SmilesParser.#ctor(NCDK.IChemObjectBuilder,System.Boolean)
-    Unique name M_NCDK_Smiles_SMARTS_SmartsPattern_Create_1 generated for M:NCDK.Smiles.SMARTS.SmartsPattern.Create(System.String,NCDK.IChemObjectBuilder)
-    Unique name M_NCDK_Smiles_SMARTS_SMARTSQueryTool_Matches_1 generated for M:NCDK.Smiles.SMARTS.SMARTSQueryTool.Matches(NCDK.IAtomContainer,System.Boolean)
-    Unique name M_NCDK_SMSD_AbstractMCS_Init_1 generated for M:NCDK.SMSD.AbstractMCS.Init(NCDK.Isomorphisms.Matchers.IQueryAtomContainer,NCDK.IAtomContainer)
-    Unique name M_NCDK_SMSD_IMCSBase_Set_1 generated for M:NCDK.SMSD.IMCSBase.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Isomorphism_Init_1 generated for M:NCDK.SMSD.Isomorphism.Init(NCDK.Isomorphisms.Matchers.IQueryAtomContainer,NCDK.IAtomContainer)
-    Unique name M_NCDK_SMSD_Isomorphism_Init_2 generated for M:NCDK.SMSD.Isomorphism.Init(System.String,System.String,System.Boolean,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultBondMatcher__ctor_1 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultBondMatcher.#ctor(NCDK.IAtomContainer,NCDK.IBond,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultBondMatcher__ctor_2 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultBondMatcher.#ctor(NCDK.Isomorphisms.Matchers.IQueryBond)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultMCSPlusAtomMatcher__ctor_1 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultMCSPlusAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultMCSPlusAtomMatcher__ctor_2 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultMCSPlusAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Int32,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultMCSPlusAtomMatcher__ctor_3 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultMCSPlusAtomMatcher.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtomContainer)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultRGraphAtomMatcher__ctor_1 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultRGraphAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultRGraphAtomMatcher__ctor_2 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultRGraphAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Int32,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultVFAtomMatcher__ctor_1 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultVFAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultVFAtomMatcher__ctor_2 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultVFAtomMatcher.#ctor(NCDK.IAtomContainer,NCDK.IAtom,System.Int32,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultVFAtomMatcher__ctor_3 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultVFAtomMatcher.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtom,NCDK.Isomorphisms.Matchers.IQueryAtomContainer)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultVFBondMatcher__ctor_1 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultVFBondMatcher.#ctor(NCDK.IAtomContainer,NCDK.IBond,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Matchers_DefaultVFBondMatcher__ctor_2 generated for M:NCDK.SMSD.Algorithms.Matchers.DefaultVFBondMatcher.#ctor(NCDK.Isomorphisms.Matchers.IQueryBond)
-    Unique name M_NCDK_SMSD_Algorithms_McGregors_McGregor__ctor_1 generated for M:NCDK.SMSD.Algorithms.McGregors.McGregor.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtomContainer,NCDK.IAtomContainer,System.Collections.Generic.IEnumerable{System.Collections.Generic.IReadOnlyList{System.Int32}})
-    Unique name M_NCDK_SMSD_Algorithms_McGregors_McGregor_StartMcGregorIteration_1 generated for M:NCDK.SMSD.Algorithms.McGregors.McGregor.StartMcGregorIteration(System.Int32,System.Collections.Generic.IReadOnlyList{System.Int32},System.Collections.Generic.IReadOnlyList{System.Int32})
-    Unique name M_NCDK_SMSD_Algorithms_McGregors_QueryProcessor_Process_1 generated for M:NCDK.SMSD.Algorithms.McGregors.QueryProcessor.Process(NCDK.Isomorphisms.Matchers.IQueryAtomContainer,NCDK.IAtomContainer,System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
-    Unique name M_NCDK_SMSD_Algorithms_McGregors_QueryProcessor_Process_2 generated for M:NCDK.SMSD.Algorithms.McGregors.QueryProcessor.Process(System.Int32,System.Int32,System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
-    Unique name M_NCDK_SMSD_Algorithms_McGregors_TargetProcessor_Process_1 generated for M:NCDK.SMSD.Algorithms.McGregors.TargetProcessor.Process(System.Int32,System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.Int32},System.Int32,System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.String})
-    Unique name M_NCDK_SMSD_Algorithms_MCSPluses_GenerateCompatibilityGraph__ctor_1 generated for M:NCDK.SMSD.Algorithms.MCSPluses.GenerateCompatibilityGraph.#ctor(NCDK.IAtomContainer,NCDK.IAtomContainer,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_MCSPluses_MCSPlusHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.MCSPluses.MCSPlusHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_RGraphs_CDKMCSHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.RGraphs.CDKMCSHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_RGraphs_CDKSubGraphHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.RGraphs.CDKSubGraphHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_Singles_SingleMapping_GetOverLaps_1 generated for M:NCDK.SMSD.Algorithms.Singles.SingleMapping.GetOverLaps(NCDK.Isomorphisms.Matchers.IQueryAtomContainer,NCDK.IAtomContainer,System.Boolean)
-    Unique name M_NCDK_SMSD_Algorithms_Singles_SingleMappingHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.Singles.SingleMappingHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_IMapper_CountMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.IMapper.CountMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_IMapper_GetFirstMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.IMapper.GetFirstMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_IMapper_GetMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.IMapper.GetMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_IMapper_HasMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.IMapper.HasMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_IQuery_GetEdge_1 generated for M:NCDK.SMSD.Algorithms.VFLib.IQuery.GetEdge(System.Int32)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_VFlibMCSHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.VFLib.VFlibMCSHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_VFlibSubStructureHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.VFLib.VFlibSubStructureHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_VFlibTurboHandler_Set_1 generated for M:NCDK.SMSD.Algorithms.VFLib.VFlibTurboHandler.Set(NCDK.SMSD.Tools.MolHandler,NCDK.SMSD.Tools.MolHandler)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Builder_VFQueryBuilder_GetEdge_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Builder.VFQueryBuilder.GetEdge(System.Int32)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Builder_VFQueryBuilder_GetNode_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Builder.VFQueryBuilder.GetNode(System.Int32)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMapper__ctor_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMapper.#ctor(NCDK.SMSD.Algorithms.VFLib.IQuery)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMapper_CountMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMapper.CountMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMapper_GetFirstMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMapper.GetFirstMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMapper_GetMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMapper.GetMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMapper_HasMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMapper.HasMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMCSMapper__ctor_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMCSMapper.#ctor(NCDK.SMSD.Algorithms.VFLib.IQuery)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMCSMapper_CountMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMCSMapper.CountMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMCSMapper_GetFirstMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMCSMapper.GetFirstMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMCSMapper_GetMaps_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMCSMapper.GetMaps(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Map_VFMCSMapper_HasMap_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Map.VFMCSMapper.HasMap(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties)
-    Unique name M_NCDK_SMSD_Algorithms_VFLib_Query_QueryCompiler__ctor_1 generated for M:NCDK.SMSD.Algorithms.VFLib.Query.QueryCompiler.#ctor(NCDK.Isomorphisms.Matchers.IQueryAtomContainer)
-    Unique name M_NCDK_SMSD_Rings_RingFilter_FilterAtoms_1 generated for M:NCDK.SMSD.Rings.RingFilter.FilterAtoms(System.Int32,System.Collections.Generic.ICollection{System.Collections.Generic.IList{NCDK.IAtom}},System.Collections.Generic.ICollection{NCDK.IAtom})
-    Unique name M_NCDK_SMSD_Tools_BondEnergies_GetEnergies_1 generated for M:NCDK.SMSD.Tools.BondEnergies.GetEnergies(NCDK.IBond)
-    Unique name M_NCDK_SMSD_Tools_BondEnergies_GetEnergies_2 generated for M:NCDK.SMSD.Tools.BondEnergies.GetEnergies(System.String,System.String,NCDK.BondOrder)
-    Unique name M_NCDK_SMSD_Tools_MolHandler__ctor_1 generated for M:NCDK.SMSD.Tools.MolHandler.#ctor(System.String,System.Boolean,System.Boolean)
     Unique name M_NCDK_Stereo_AbstractStereo_2_Clone_1 generated for M:NCDK.Stereo.AbstractStereo`2.Clone(NCDK.CDKObjectMap)
     Unique name M_NCDK_Stereo_DoubleBondStereochemistry__ctor_1 generated for M:NCDK.Stereo.DoubleBondStereochemistry.#ctor(NCDK.IBond,System.Collections.Generic.IEnumerable{NCDK.IBond},NCDK.StereoConfigurations)
     Unique name M_NCDK_Stereo_DoubleBondStereochemistry__ctor_2 generated for M:NCDK.Stereo.DoubleBondStereochemistry.#ctor(NCDK.IBond,System.Collections.Generic.IEnumerable{NCDK.IBond},NCDK.StereoElement)
@@ -1241,7 +1186,6 @@ TransformManifest:
     Unique name M_NCDK_Tautomers_InChITautomerGenerator_GetTautomers_1 generated for M:NCDK.Tautomers.InChITautomerGenerator.GetTautomers(NCDK.IAtomContainer,System.String)
     Unique name M_NCDK_Tools_AtomTypeAwareSaturationChecker_DecideBondOrder_1 generated for M:NCDK.Tools.AtomTypeAwareSaturationChecker.DecideBondOrder(NCDK.IAtomContainer,System.Boolean)
     Unique name M_NCDK_Tools_AtomTypeAwareSaturationChecker_IsSaturated_1 generated for M:NCDK.Tools.AtomTypeAwareSaturationChecker.IsSaturated(NCDK.IAtomContainer)
-    Unique name M_NCDK_Tools_AtomTypeTools_AssignAtomTypePropertiesToAtom_1 generated for M:NCDK.Tools.AtomTypeTools.AssignAtomTypePropertiesToAtom(NCDK.IAtomContainer,System.Boolean)
     Unique name M_NCDK_Tools_CDKHydrogenAdder_AddImplicitHydrogens_1 generated for M:NCDK.Tools.CDKHydrogenAdder.AddImplicitHydrogens(NCDK.IAtomContainer,NCDK.IAtom)
     Unique name M_NCDK_Tools_CDKValencyChecker_IsSaturated_1 generated for M:NCDK.Tools.CDKValencyChecker.IsSaturated(NCDK.IAtomContainer)
     Unique name M_NCDK_Tools_GridGenerator__ctor_1 generated for M:NCDK.Tools.GridGenerator.#ctor(System.Double,System.Double)
@@ -1306,12 +1250,12 @@ TransformManifest:
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:12.4593
+プロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\TransformManifest.proj&quot; (既定のターゲット) のビルドが完了しました。
+    Last step completed in 00:00:09.4606
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:01.5541
+    Last step completed in 00:00:01.4502
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -1325,7 +1269,7 @@ Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\*.xml
 Indexing C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\NCDK.Display.xml
 Indexing C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\NCDK.xml
-Indexed 169000 members in 128 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 168016 members in 128 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 SHFB: Warning GID0004: No comments found for member &#39;P:NCDK.AtomRef.Valency&#39;
@@ -1337,7 +1281,6 @@ SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.ChemObjectRef.No
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Config.CDKBasedAtomTypeConfigurator.GetStream&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Config.OWLBasedAtomTypeConfigurator.GetStream&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Config.TXTBasedAtomTypeConfigurator.GetStream&#39;
-SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Isomorphisms.Matchers.SMARTS.TotalHCountAtom.ToString&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Maths.BitsStreamGenerator.SetSeed(System.Int32)&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Maths.BitsStreamGenerator.SetSeed(System.Int32[])&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Maths.BitsStreamGenerator.SetSeed(System.Int64)&#39;
@@ -1371,9 +1314,6 @@ SHFB: Warning GID0006: No comments found for member &#39;M:NCDK.Reactions.Types.
 SHFB: Warning GID0006: No comments found for member &#39;P:NCDK.Reactions.Types.SharingLonePairReaction.Specification&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0006: No comments found for member &#39;M:NCDK.Reactions.Types.SharingLonePairReaction.Initiate(NCDK.IChemObjectSet{NCDK.IAtomContainer},NCDK.IChemObjectSet{NCDK.IAtomContainer})&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Signatures.SignatureQuotientGraph.IsConnected(System.Int32,System.Int32)&#39;
-SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.SMSD.Algorithms.Matchers.DefaultBondMatcher.Matches(NCDK.IAtomContainer,NCDK.IBond)&#39;
-SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.SMSD.Algorithms.Matchers.DefaultMCSPlusAtomMatcher.Matches(NCDK.IAtomContainer,NCDK.IAtom)&#39;
-SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.SMSD.Algorithms.Matchers.DefaultVFBondMatcher.Matches(NCDK.SMSD.Algorithms.VFLib.Builder.TargetProperties,NCDK.IBond)&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Stereo.Atropisomeric.Create(NCDK.IBond,System.Collections.Generic.IReadOnlyList{NCDK.IAtom},NCDK.StereoElement)&#39;
 SHFB: Warning GID0004: No comments found for member &#39;P:NCDK.Default.Bond.Index&#39;
 SHFB: Warning GID0004: No comments found for member &#39;P:NCDK.Default.Bond.Container&#39;
@@ -1409,7 +1349,7 @@ SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Renderers.Reacti
 SHFB: Warning GID0004: No comments found for member &#39;M:NCDK.Renderers.Visitors.WPFDrawVisitor.Visit(NCDK.Renderers.Elements.IRenderingElement,System.Windows.Media.Transform)&#39;
 
 Documentation merged successfully
-    Last step completed in 00:00:13.5199
+    Last step completed in 00:00:11.9812
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1424,6 +1364,8 @@ Generating conceptual topic files
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\Welcome.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\e2ff06cc-99b7-4f8b-95c5-53965548639f.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\VersionHistory.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\38e429c1-4197-40a9-a1ee-8b5f4c592a1c.xml
+    Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.3.0.aml&#39;
+    C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.3.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\FFF65979-1994-4568-B591-02812B45B180.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.1.0.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.1.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\2596a4ac-1470-4cbf-a672-b98243cd4347.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.5.0.1.aml&#39;
@@ -1446,43 +1388,43 @@ Generating conceptual topic files
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.2.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\5c1f7bab-480e-41fb-b16b-aab842a90ef8.xml
     Parsing topic file &#39;C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\ujiha\source\repos\NCDK\Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\ddueXml\ce71932b-728b-4efb-b633-b2576df0de36.xml
-    Last step completed in 00:00:00.1822
+    Last step completed in 00:00:00.2489
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.1183
+    Last step completed in 00:00:00.1289
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\ujiha\source\repos\NCDK\Documentation\icons\Help.png -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\icons\Help.png
 C:\Users\ujiha\source\repos\NCDK\Documentation\media\header.svg -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\media\header.svg
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0340
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0150
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/23/2018 12:18:18 PM.
-Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+2019/04/29 10:02:45 にビルドを開始しました。
+ノード 1 上のプロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (既定のターゲット)。
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+プロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (既定のターゲット) のビルドが完了しました。
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.7363
+    Last step completed in 00:00:02.0059
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.7656
+    Last step completed in 00:00:00.8435
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1492,13 +1434,13 @@ C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\sandcastle.config
   Updating conceptual topic configurations.
     Skipping component &#39;API Token Resolution&#39;, not used in conceptual build
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0150
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/23/2018 12:18:21 PM.
-Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+2019/04/29 10:02:48 にビルドを開始しました。
+ノード 1 上のプロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; (既定のターゲット)。
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -1552,8 +1494,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Hash.HashGene
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Hash.HashGeneratorMaker.Perturbed] Unknown reference link target &#39;T:NCDK.Hash.MinimumEquivalentCyclicSet&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Hash.HashGeneratorMaker.Perturbed] Unknown reference link target &#39;M:NCDK.Hash.HashGeneratorMaker.PerturbWith(NCDK.Hash.EquivalentSetFinder)&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.IO.InChIReader] Unknown reference link target &#39;T:NCDK.IO.InChIReader.InChIHandler&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [N:NCDK.Isomorphisms.Matchers.SMARTS] Unknown reference link target &#39;T:NCDK.Isomorphisms.Matchers.SMARTS.SMARTSAtomInvariants&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Isomorphisms.Matchers.SMARTS.TotalRingConnectionAtom] Unknown reference link target &#39;T:NCDK.Isomorphisms.Matchers.SMARTS.SMARTSAtomInvariants&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Modelings.Builder3D.AtomPlacer3D.NumberOfUnplacedHeavyAtoms(NCDK.IAtomContainer)] Unknown reference link target &#39;M:NCDK.Modelings.Builder3D.AtomPlacer3D.GetUnplacedHeavyAtom(NCDK.IAtomContainer)&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Reactions.Types.AdductionProtonLPReaction] Unknown reference link target &#39;T:NCDK.Reactions.Types.AbstractAdductionLPReaction&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Reactions.Types.AdductionProtonLPReaction] Unknown reference link target &#39;P:NCDK.Reactions.Types.AbstractAdductionLPReaction.Specification&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
@@ -1721,6 +1661,10 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Signatures.Si
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Signatures.SignatureQuotientGraph] Unknown reference link target &#39;M:NCDK.FaulonSignatures.AbstractQuotientGraph.IsConnected(System.Int32,System.Int32)&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:NCDK.Signatures.SignatureQuotientGraph] Unknown reference link target &#39;M:NCDK.FaulonSignatures.AbstractQuotientGraph.IsConnected(System.Int32,System.Int32)&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Silent.ChemFile.RemoveAt(System.Int32)] Unknown reference link target &#39;F:NCDK.Silent.ChemFile.chemSequences&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:NCDK.SMARTS] Unknown reference link target &#39;!:Smiles.SMARTS.SMARTSQueryTool&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [N:NCDK.SMARTS] Invalid reference link target &#39;!:Smiles.SMARTS.SMARTSQueryTool&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.SMARTS.SmartsPattern] Unknown reference link target &#39;!:Smiles.SMARTS.SMARTSQueryTool&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.SMARTS.SmartsPattern] Invalid reference link target &#39;!:Smiles.SMARTS.SMARTSQueryTool&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [N:NCDK.Tools] Unknown reference link target &#39;T:NCDK.Config.NaturalElement&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.HOSECodeGenerator.GetSpheres(NCDK.IAtomContainer,NCDK.IAtom,System.Int32,System.Boolean)] Unknown reference link target &#39;T:NCDK.Tools.HOSECodeGenerator.TreeNode&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:NCDK.Tools.PeriodicTable] Unknown reference link target &#39;T:NCDK.Config.NaturalElement&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
@@ -1728,18 +1672,18 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipul
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillWithCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillNoCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:NCDK.Tools.Manipulator.MolecularFormulaManipulator.GetString(NCDK.IMolecularFormula,System.Collections.Generic.IReadOnlyList{System.String},System.Boolean,System.Boolean)] Unknown reference link target &#39;P:NCDK.Tools.Manipulator.MolecularFormulaManipulator.OrderEleHillWithCarbons&#39;. [C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj]
-  Processed 13927 topic(s)
-  223 warning(s)
+  Processed 12839 topic(s)
+  225 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 12 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 7 of 30.
-Done Building Project &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:58.7172
+プロジェクト &quot;C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\BuildTopics.proj&quot; (既定のターゲット) のビルドが完了しました。
+    Last step completed in 00:01:54.1618
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1792
+    Last step completed in 00:00:00.1069
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -1751,11 +1695,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website
-Processed 13926 HTML files
+Processed 12838 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:24.5573
+    Last step completed in 00:00:18.3925
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -1837,18 +1781,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\ujiha\source\repos\NCDK\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.8704
+    Last step completed in 00:00:00.5867
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:01:10.8358
+</plugIn>    Last step completed in 00:00:44.5419
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -1886,18 +1830,16 @@ Copied 15000 files
 Copied 15500 files
 Copied 16000 files
 Copied 16500 files
-Copied 17000 files
-Copied 17500 files
-Copied 17991 files for the website content
-    Last step completed in 00:00:55.6298
+Copied 16524 files for the website content
+    Last step completed in 00:00:54.1755
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:10.0204
+    Last step completed in 00:00:10.6537
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/23/2018 12:23:01 PM.  Total time: 00:11:55.6888
+Build completed successfully at 2019/04/29 10:06:50.  Total time: 00:11:06.8690
 
 </buildStep>
 </shfbBuild>

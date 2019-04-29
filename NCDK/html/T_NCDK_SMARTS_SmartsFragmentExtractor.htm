@@ -39,6 +39,7 @@
             peripheral bonds intend to capture the connectivity of the terminal atoms but
             since the valence is not bounded further substitution is still allowed. This
             mirrors functionality from jCompoundMapper 
+    <a href="https://dx.doi.org/10.1186/1758-2946-3-3" />
     <a href="https://dx.doi.org/10.1186/1758-2946-3-3">Hinselmann and Georg and Rosenbaum and Lars and Jahn and Andreas and Fechner and Nikolas and Zell and Andreas, <i>jCompoundMapper: An open source Java library and command line tool for chemical fingerprints</i>, Journal of Cheminformatics, <b>2011</b>, 3:1-14</a>
   .
             </p><p>
@@ -60,9 +61,9 @@ IAtomContainer mol = smipar.ParseSmiles(<span class="highlight-literal">"[nH]1cc
 <span class="highlight-keyword">string</span> smarts;
 <span class="highlight-comment">// smarts=[nH1v3X3+0][cH1v4X3+0][cH1v4X3+0][cH0v4X3+0]</span>
 <span class="highlight-comment">// hits  =1</span>
-smarts = subsmarts.Generate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]{<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">3</span>,<span class="highlight-number">4</span>});
+smarts = subsmarts.Generate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]{ <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span> });
 
 subsmarts.SetMode(SubstructureSelectionMode.JCompoundMapper);
 <span class="highlight-comment">// smarts=n(ccc(a)a)a</span>
 <span class="highlight-comment">// hits  = 0 - one of the 'a' atoms needs to match the nitrogen</span>
-smarts = subsmarts.Generate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]{<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">3</span>,<span class="highlight-number">4</span>});</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_NCDK_SMARTS.htm">NCDK.SMARTS Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2018 Kazuya Ujihara</p> </div></body></html>
+smarts = subsmarts.Generate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]{ <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span> });</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_NCDK_SMARTS.htm">NCDK.SMARTS Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 2016-2018 Kazuya Ujihara</p> </div></body></html>
